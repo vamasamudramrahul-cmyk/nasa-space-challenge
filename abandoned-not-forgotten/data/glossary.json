@@ -1,0 +1,92 @@
+[
+  {
+    "term": "Descent Stage",
+    "category": "Spacecraft and equipment",
+    "definition": "The lower portion of a multi-stage lander containing the descent rocket engine, propellant tanks, landing gear, and heavy cargo. In the Apollo lunar missions, the descent stage remained permanently on the Moon to serve as the launch platform for the ascent stage.",
+    "citation": "NASA Apollo Operations Handbook"
+  },
+  {
+    "term": "Ascent Stage",
+    "category": "Spacecraft and equipment",
+    "definition": "The crewed upper cabin of a lunar lander that houses the astronauts, flight avionics, and life support. It fires its engine from atop the descent stage to return astronauts back to lunar orbit, after which it is typically jettisoned.",
+    "citation": "NASA SP-4009 The Apollo Spacecraft"
+  },
+  {
+    "term": "MMRTG",
+    "category": "Spacecraft and equipment",
+    "definition": "Multi-Mission Radioisotope Thermoelectric Generator. A compact nuclear power system that converts the natural heat produced by the radioactive decay of plutonium-238 into a steady flow of electricity, immune to dust storms and seasonal darkness.",
+    "citation": "NASA Jet Propulsion Laboratory Power Systems"
+  },
+  {
+    "term": "Sol",
+    "category": "Orbit and navigation",
+    "definition": "A solar day on the planet Mars, equivalent to 24 hours, 39 minutes, and 35.244 seconds—approximately 2.7% longer than an Earth solar day. Mars surface missions reckon surface operations in sols starting from touchdown at Sol 0.",
+    "citation": "NASA Mars Exploration Program Time Standards"
+  },
+  {
+    "term": "Laser Ranging Retroreflector (LRRR)",
+    "category": "Scientific terms",
+    "definition": "A passive optical cube-corner prism array left on the Moon by Apollo 11, 14, and 15 (and Soviet Lunokhod rovers). Laser beams shot from Earth bounce directly back, allowing scientists to calculate the Moon's distance to millimeter precision and observe it receding at 3.8 cm per year.",
+    "citation": "NASA Goddard Space Flight Center Lunar Geodesy"
+  },
+  {
+    "term": "Rocker-Bogie Suspension",
+    "category": "Spacecraft and equipment",
+    "definition": "The mechanical suspension system used on Sojourner, Spirit, Opportunity, Curiosity, and Perseverance. It has no springs, instead utilizing differential rocker arms and bogie pivots to keep all six wheels in contact with uneven rocky terrain and climb obstacles larger than wheel diameter.",
+    "citation": "NASA JPL Robotics Technical Documentation"
+  },
+  {
+    "term": "Aerobraking",
+    "category": "Orbit and navigation",
+    "definition": "An orbital maneuver that utilizes repeated friction passes through the upper atmosphere of a planet (such as Mars) to gradually bleed off orbital velocity and circularize the spacecraft's trajectory without consuming precious rocket propellant.",
+    "citation": "NASA SP-2005 Aerobraking Principles"
+  },
+  {
+    "term": "Sky Crane",
+    "category": "Mission operations",
+    "definition": "A rocket-powered descent stage developed for Curiosity and Perseverance. After slowing with parachutes, the descent stage hovers on retrorockets while winching the rover down on 7.6-meter bridle cables, touching wheels down directly before severing cables and flying away.",
+    "citation": "NASA MSL / Mars 2020 EDL Engineering"
+  },
+  {
+    "term": "Regolith",
+    "category": "Scientific terms",
+    "definition": "The powdery, abrasive layer of unconsolidated rocky debris, shattered mineral fragments, and micro-impact glass shards blanketing bedrock on the Moon and Mars.",
+    "citation": "USGS Lunar & Planetary Geology"
+  },
+  {
+    "term": "Sample Return Cache",
+    "category": "Mission operations",
+    "definition": "Hermetically sealed, ultra-clean titanium tubes filled with drilled rock and regolith cores cached on the Martian surface by Perseverance for future collection and return to Earth by the Mars Sample Return campaign.",
+    "citation": "NASA Mars 2020 Science Team"
+  },
+  {
+    "term": "Seven Minutes of Terror",
+    "category": "Mission operations",
+    "definition": "The colloquial term describing the Entry, Descent, and Landing (EDL) phase on Mars. Because radio signals take 4 to 22 minutes to travel between Mars and Earth, all atmospheric entry, parachute deployment, radar sensing, and touchdown maneuvers must be executed 100% autonomously.",
+    "citation": "NASA JPL Mars Landing Sequences"
+  },
+  {
+    "term": "Deep Space Network (DSN)",
+    "category": "Mission operations",
+    "definition": "NASA's international array of giant 34-meter and 70-meter parabolic dish antennas located at Goldstone (California), Madrid (Spain), and Canberra (Australia), spaced roughly 120 degrees apart to provide 24/7 continuous radio tracking and command uplinks across the Solar System.",
+    "citation": "NASA DSN User Handbook"
+  },
+  {
+    "term": "Mare (Lunar Mare)",
+    "category": "General space terminology",
+    "definition": "Large, dark basaltic plains formed by ancient volcanic eruptions that flooded giant asteroid impact basins on the Moon, mistaken by early telescopic astronomers for liquid oceans.",
+    "citation": "NASA Planetary Nomenclature"
+  },
+  {
+    "term": "Primary Mission vs. Extended Mission",
+    "category": "Mission history and status",
+    "definition": "The primary mission is the funded operational duration designed to achieve mandatory baseline scientific criteria. When equipment remains healthy after completing baseline objectives, NASA may approve one or more extended mission phases.",
+    "citation": "NASA Planetary Science Directorate"
+  },
+  {
+    "term": "Trans-Lunar Injection (TLI)",
+    "category": "Orbit and navigation",
+    "definition": "A propulsion maneuver performed by a spacecraft or upper launch stage (such as the Saturn V S-IVB) that accelerates the spacecraft onto a ballistic trajectory toward the Moon.",
+    "citation": "NASA Apollo Flight Mechanics"
+  }
+]
