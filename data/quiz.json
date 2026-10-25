@@ -1,0 +1,197 @@
+[
+  {
+    "id": "q1",
+    "question": "What is engraved on the commemorative plaque attached to the Apollo 11 Lunar Module descent stage left on the Moon?",
+    "options": [
+      "For All Mankind — Conquering the Solar System",
+      "Here Men From The Planet Earth First Set Foot Upon The Moon. We Came In Peace For All Mankind.",
+      "In Memory of Apollo 1: Dedicated to Exploration",
+      "One Small Step for a Man, One Giant Leap for Mankind"
+    ],
+    "correctIndex": 1,
+    "explanation": "The stainless steel plaque bolted to the descent stage ladder reads: 'Here Men From The Planet Earth First Set Foot Upon The Moon. July 1969, A.D. We Came In Peace For All Mankind.'",
+    "equipmentId": "M001"
+  },
+  {
+    "id": "q2",
+    "question": "Which mission deployed the first wheeled vehicle driven by humans on another celestial world?",
+    "options": [
+      "Apollo 11",
+      "Apollo 14",
+      "Apollo 15",
+      "Apollo 17"
+    ],
+    "correctIndex": 2,
+    "explanation": "Apollo 15 (July 1971) was the first J-mission to carry the Boeing-built Lunar Roving Vehicle (LRV-001), driven across 27.8 km by astronauts David Scott and James Irwin.",
+    "equipmentId": "M002"
+  },
+  {
+    "id": "q3",
+    "question": "Which unmanned spacecraft was visited, inspected, and partially salvaged by the Apollo 12 astronaut crew on the Moon?",
+    "options": [
+      "Surveyor 1",
+      "Surveyor 3",
+      "Lunar Orbiter 2",
+      "Ranger 7"
+    ],
+    "correctIndex": 1,
+    "explanation": "Apollo 12 landed within walking distance of Surveyor 3 in November 1969. Astronauts Pete Conrad and Alan Bean retrieved its TV camera and tubing to test long-term exposure in the lunar vacuum.",
+    "equipmentId": "M003"
+  },
+  {
+    "id": "q4",
+    "question": "Why did the descent stages of all six Apollo lunar landings remain behind on the surface of the Moon?",
+    "options": [
+      "They ran out of fuel before returning",
+      "They served as the launch pad and rocket foundation for the ascending upper stage",
+      "They were contaminated by lunar radiation",
+      "They were intentionally preserved as solar power relays"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Apollo Lunar Module was designed in two parts: the descent stage carried the descent engine and surface payload, then acted as the rigid launch pad when the ascent stage fired its engine to return to lunar orbit.",
+    "equipmentId": "M001"
+  },
+  {
+    "id": "q5",
+    "question": "Which spacecraft was the first American robotic probe to achieve a soft touchdown on the surface of Mars in July 1976?",
+    "options": [
+      "Mariner 9",
+      "Viking 1 Lander",
+      "Mars Pathfinder",
+      "Viking 2 Orbiter"
+    ],
+    "correctIndex": 1,
+    "explanation": "Viking 1 touched down in Chryse Planitia on July 20, 1976, operating for 2,245 sols and returning the first color photographs and soil analyses from the Martian surface.",
+    "equipmentId": "R001"
+  },
+  {
+    "id": "q6",
+    "question": "Designed for a planned 7-sol operational lifetime, which pioneering microrover operated for 83 sols alongside the Mars Pathfinder lander in 1997?",
+    "options": [
+      "Sojourner",
+      "Spirit",
+      "Opportunity",
+      "Curiosity"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 10.6 kg Sojourner microrover traveled over 100 meters and analyzed chemical compositions of rocks across Ares Vallis for 83 sols until the Pathfinder lander base station failed.",
+    "equipmentId": "R004"
+  },
+  {
+    "id": "q7",
+    "question": "What power source has allowed Curiosity and Perseverance to operate continuously on Mars without relying on solar panels?",
+    "options": [
+      "Liquid Hydrogen Fuel Cells",
+      "Multi-Mission Radioisotope Thermoelectric Generator (MMRTG)",
+      "Lithium-Sulfur Solid State Batteries",
+      "Atmospheric Wind Turbines"
+    ],
+    "correctIndex": 1,
+    "explanation": "Both rovers use an MMRTG containing 4.8 kg of plutonium-238 dioxide, converting natural radioactive decay heat into continuous electrical power regardless of dust storms and season.",
+    "equipmentId": "R007"
+  },
+  {
+    "id": "q8",
+    "question": "What did the Phoenix Mars Lander discover beneath the topsoil in the arctic plains of Vastitas Borealis in 2008?",
+    "options": [
+      "Liquid methane lakes",
+      "Fossilized stromatolites",
+      "Pure subsurface water ice that sublimated into vapor",
+      "Volcanic lava tubes"
+    ],
+    "correctIndex": 2,
+    "explanation": "Phoenix dug into the permafrost with its robotic arm, exposing bright white patches of pure water ice that vaporized over four days when exposed to sunlight.",
+    "equipmentId": "R010"
+  },
+  {
+    "id": "q9",
+    "question": "What historic milestone was achieved by the Ingenuity Mars Helicopter on April 19, 2021?",
+    "options": [
+      "First solar-powered flight to orbit",
+      "First powered, controlled flight of an aircraft on another planet",
+      "First aerial delivery of a rock sample",
+      "First flight in zero gravity"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ingenuity completed the first powered, controlled flight in another planet's atmosphere, rising 3 meters and hovering for 39.1 seconds at Wright Brothers Field in Jezero Crater.",
+    "equipmentId": "R009"
+  },
+  {
+    "id": "q10",
+    "question": "Why was the InSight geophysical lander officially retired by NASA in December 2022?",
+    "options": [
+      "A software bug caused it to shut down",
+      "It was hit by a major meteorite",
+      "Heavy dust accumulation on its solar panels choked off electrical power",
+      "Its seismometer completed all possible tests"
+    ],
+    "correctIndex": 2,
+    "explanation": "Without dust-clearing cleaning events ('dust devils'), a thick blanket of Martian dust gradually reduced InSight's solar power generation from 5,000 watt-hours per sol to less than 300 watt-hours.",
+    "equipmentId": "R011"
+  },
+  {
+    "id": "q11",
+    "question": "Which NASA orbiter has operated at Mars continuously since 2001, making it the longest-serving spacecraft at the Red Planet?",
+    "options": [
+      "Mars Global Surveyor",
+      "2001 Mars Odyssey",
+      "MAVEN",
+      "Mars Reconnaissance Orbiter"
+    ],
+    "correctIndex": 1,
+    "explanation": "2001 Mars Odyssey arrived at Mars in October 2001 and celebrated 25 years of orbital operations in 2026, serving as a vital communications relay for multiple rover missions.",
+    "equipmentId": "R013"
+  },
+  {
+    "id": "q12",
+    "question": "Why did NASA deliberately command Lunar Orbiter 1 to crash into the far side of the Moon on October 29, 1966?",
+    "options": [
+      "To test seismic reverberation for future seismometers",
+      "To prevent its radio beacon from interfering with Lunar Orbiter 2",
+      "Because an electrical fire had disabled the cameras",
+      "To bury classified telemetry data"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lunar Orbiter 1 was running low on attitude control gas. To ensure its active radio transmitter would not interfere with the upcoming Lunar Orbiter 2 mission, NASA commanded a controlled deorbit impact.",
+    "equipmentId": "M006"
+  },
+  {
+    "id": "q13",
+    "question": "What caused the Opportunity rover to fall permanently silent in June 2018 in Perseverance Valley?",
+    "options": [
+      "A broken wheel drive motor",
+      "A planet-encircling catastrophic dust storm that blotted out the Sun",
+      "Falling into a steep crater crevasse",
+      "Cosmic ray corruption of its flight computer"
+    ],
+    "correctIndex": 1,
+    "explanation": "A massive global dust storm blocked solar illumination for months. Opportunity's batteries dropped below operating voltage and the rover was unable to maintain internal warmth.",
+    "equipmentId": "R006"
+  },
+  {
+    "id": "q14",
+    "question": "What major environmental discovery did the Curiosity rover make in Gale Crater's Yellowknife Bay in 2013?",
+    "options": [
+      "Evidence of ancient, non-acidic freshwater lakes capable of supporting microbial life",
+      "Hot active thermal geysers",
+      "A subterranean ocean under liquid pressure",
+      "Dense vegetation fossil deposits"
+    ],
+    "correctIndex": 0,
+    "explanation": "Drilling into fine-grained mudstone revealed benign, neutral-pH clay minerals and key chemical elements (C, H, O, S, N, P) proving ancient Mars had long-lasting freshwater lakes.",
+    "equipmentId": "R007"
+  },
+  {
+    "id": "q15",
+    "question": "What was the purpose of the Lunar Reconnaissance Orbiter (LRO) high-resolution camera imaging of historic Apollo sites?",
+    "options": [
+      "To assess heritage sites, confirm hardware positions, and map meter-scale hazards for future Artemis missions",
+      "To search for missing astronaut tools",
+      "To dismantle the laser retroreflectors remotely",
+      "To spray sealant over the landing pads"
+    ],
+    "correctIndex": 0,
+    "explanation": "LROC captured sub-meter images showing Apollo descent stages, rover tracks, and scientific instrument packages, providing ground-truth validation for lunar mapping and heritage preservation.",
+    "equipmentId": "M007"
+  }
+]

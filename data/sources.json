@@ -1,0 +1,52 @@
+[
+  {
+    "sourceId": "SRC-NSSDC",
+    "title": "NASA Space Science Data Coordinated Archive (NSSDCA)",
+    "organization": "NASA Goddard Space Flight Center",
+    "sourceType": "Official Space Agency Archive & Master Catalog",
+    "url": "https://nssdc.gsfc.nasa.gov/",
+    "verificationStatus": "Primary Authoritative",
+    "supportedRecords": "All Apollo, Surveyor, Lunar Orbiter, Viking, Pathfinder, and planetary mission records",
+    "auditNotes": "Master repository for COSPAR IDs, launch dates, landing coordinates, and mission outcomes."
+  },
+  {
+    "sourceId": "SRC-JPL-MARS",
+    "title": "JPL Mars Exploration Program Archive & Mission Portals",
+    "organization": "NASA Jet Propulsion Laboratory / Caltech",
+    "sourceType": "Mission Operations & Science Telemetry",
+    "url": "https://mars.nasa.gov/",
+    "verificationStatus": "Primary Authoritative",
+    "supportedRecords": "Curiosity, Perseverance, Ingenuity, Opportunity, Spirit, InSight, Odyssey, MRO",
+    "auditNotes": "Live telemetry updates, distance logs (Perseverance 45.22 km, Oct 2026), and engineering logs."
+  },
+  {
+    "sourceId": "SRC-ALSJ",
+    "title": "Apollo Lunar Surface Journal (ALSJ)",
+    "organization": "NASA History Division",
+    "sourceType": "Annotated Transcripts & Photographic Catalog",
+    "url": "https://www.nasa.gov/history/alsj/",
+    "verificationStatus": "Primary Authoritative",
+    "supportedRecords": "Apollo 11 Eagle Descent Stage, Apollo 15 LRV, Surveyor 3 Apollo 12 visit",
+    "auditNotes": "Verified air-to-ground radio logs, plaque transcriptions, coordinates, and photo indices."
+  },
+  {
+    "sourceId": "SRC-LROC",
+    "title": "Lunar Reconnaissance Orbiter Camera (LROC) Science Archive",
+    "organization": "Arizona State University / NASA GSFC",
+    "sourceType": "Sub-Meter Surface Imagery & Cartography",
+    "url": "https://www.lroc.asu.edu/",
+    "verificationStatus": "Primary Authoritative",
+    "supportedRecords": "Apollo 11, 12, 14, 15, 16, 17 landing sites, Surveyor, Lunar Orbiter impacts",
+    "auditNotes": "Sub-meter high-resolution orbital confirmation of lunar hardware positions and rover wheel tracks."
+  },
+  {
+    "sourceId": "SRC-USGS-ASTRO",
+    "title": "USGS Astrogeology Gazetteer of Planetary Nomenclature",
+    "organization": "USGS / International Astronomical Union (IAU)",
+    "sourceType": "Official Geodetic & Cartographic Register",
+    "url": "https://planetarynames.wr.usgs.gov/",
+    "verificationStatus": "Secondary Cross-Reference",
+    "supportedRecords": "All planetary landing site names, craters, valleys, and coordinate standards",
+    "auditNotes": "Provides standard east-positive longitude definitions and named features."
+  }
+]

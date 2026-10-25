@@ -1,0 +1,543 @@
+[
+  {
+    "id": "mission_apollo_11",
+    "name": "Apollo 11",
+    "program": "Apollo Program",
+    "destination": "Moon",
+    "agency": "NASA",
+    "status": "Completed",
+    "launchDate": "1969-07-16",
+    "landingDate": "1969-07-20",
+    "endDate": "1969-07-24",
+    "crew": "Neil Armstrong, Buzz Aldrin, Michael Collins",
+    "summary": "First human lunar landing. Neil Armstrong and Buzz Aldrin spent 21.6 hours on the lunar surface at Mare Tranquillitatis.",
+    "outcome": "Successful first crewed landing; 21.55 kg of lunar samples returned; descent stage and EASEP instruments left on surface.",
+    "equipmentIds": [
+      "M001"
+    ],
+    "majorMilestones": [
+      {
+        "date": "1969-07-16",
+        "title": "Launch from Kennedy Space Center LC-39A on Saturn V"
+      },
+      {
+        "date": "1969-07-20",
+        "title": "Lunar touchdown at Mare Tranquillitatis (Tranquility Base)"
+      },
+      {
+        "date": "1969-07-21",
+        "title": "First human moonwalk EVA (2 hr 31 min)"
+      },
+      {
+        "date": "1969-07-21",
+        "title": "Lunar module ascent stage liftoff; descent stage remains"
+      },
+      {
+        "date": "1969-07-24",
+        "title": "Pacific splashdown and crew recovery"
+      }
+    ]
+  },
+  {
+    "id": "mission_apollo_15",
+    "name": "Apollo 15",
+    "program": "Apollo Program",
+    "destination": "Moon",
+    "agency": "NASA",
+    "status": "Completed",
+    "launchDate": "1971-07-26",
+    "landingDate": "1971-07-30",
+    "endDate": "1971-08-07",
+    "crew": "David Scott, James Irwin, Alfred Worden",
+    "summary": "First 'J-mission' with extended stay (67 hrs) and the debut of the Lunar Roving Vehicle (LRV-001).",
+    "outcome": "Traversed 27.8 km across Hadley-Apennine, collected the ancient 'Genesis Rock' (4.1 billion years old).",
+    "equipmentIds": [
+      "M002"
+    ],
+    "majorMilestones": [
+      {
+        "date": "1971-07-26",
+        "title": "Saturn V launch"
+      },
+      {
+        "date": "1971-07-30",
+        "title": "Touchdown at Hadley-Apennine"
+      },
+      {
+        "date": "1971-07-31",
+        "title": "First extraterrestrial drive of the Lunar Roving Vehicle"
+      },
+      {
+        "date": "1971-08-02",
+        "title": "Ascent liftoff; LRV parked to film liftoff with ground camera"
+      }
+    ]
+  },
+  {
+    "id": "mission_surveyor_1",
+    "name": "Surveyor 1",
+    "program": "Surveyor Program",
+    "destination": "Moon",
+    "agency": "NASA",
+    "status": "Completed",
+    "launchDate": "1966-05-30",
+    "landingDate": "1966-06-02",
+    "endDate": "1967-01-07",
+    "summary": "First American spacecraft to achieve a soft touchdown on another extraterrestrial world.",
+    "outcome": "Returned 11,237 images demonstrating lunar soil bearing strength sufficient for Apollo astronauts.",
+    "equipmentIds": [
+      "M003"
+    ],
+    "majorMilestones": [
+      {
+        "date": "1966-05-30",
+        "title": "Launch aboard Atlas-Centaur"
+      },
+      {
+        "date": "1966-06-02",
+        "title": "Historic soft touchdown in Oceanus Procellarum"
+      },
+      {
+        "date": "1967-01-07",
+        "title": "Final telemetry contact following lunar night survival"
+      }
+    ]
+  },
+  {
+    "id": "mission_lunar_orbiter_1",
+    "name": "Lunar Orbiter 1",
+    "program": "Lunar Orbiter Program",
+    "destination": "Moon",
+    "agency": "NASA",
+    "status": "Completed",
+    "launchDate": "1966-08-10",
+    "arrivalDate": "1966-08-14",
+    "endDate": "1966-10-29",
+    "summary": "Mapped 5 million square kilometers of lunar surface to select safe Apollo landing sites and took the first Earthrise photo.",
+    "outcome": "Commanded to impact lunar far side after 577 orbits to clear frequencies for Lunar Orbiter 2.",
+    "equipmentIds": [
+      "M006"
+    ],
+    "majorMilestones": [
+      {
+        "date": "1966-08-10",
+        "title": "Launch from Cape Kennedy"
+      },
+      {
+        "date": "1966-08-23",
+        "title": "First photograph of Earth from the vicinity of the Moon (Earthrise)"
+      },
+      {
+        "date": "1966-10-29",
+        "title": "Controlled lunar impact on far side"
+      }
+    ]
+  },
+  {
+    "id": "mission_lro",
+    "name": "Lunar Reconnaissance Orbiter (LRO)",
+    "program": "Lunar Discovery",
+    "destination": "Moon",
+    "agency": "NASA",
+    "status": "Active / Ongoing",
+    "launchDate": "2009-06-18",
+    "arrivalDate": "2009-06-23",
+    "endDate": "Present",
+    "summary": "High-resolution polar mapping orbiter providing 3D global topographic models and imagery of historic landing sites.",
+    "outcome": "Ongoing active mapping; imaged Apollo landing sites, rover wheel tracks, and confirmed water ice deposits in permanently shadowed craters.",
+    "equipmentIds": [
+      "M007"
+    ],
+    "majorMilestones": [
+      {
+        "date": "2009-06-18",
+        "title": "Atlas V launch carrying LRO and LCROSS impactor"
+      },
+      {
+        "date": "2009-06-23",
+        "title": "Lunar orbit insertion"
+      },
+      {
+        "date": "2009-07-17",
+        "title": "LROC releases first high-resolution pictures of Apollo landing sites"
+      }
+    ]
+  },
+  {
+    "id": "mission_viking_1",
+    "name": "Viking 1",
+    "program": "Viking Program",
+    "destination": "Mars",
+    "agency": "NASA",
+    "status": "Completed",
+    "launchDate": "1975-08-20",
+    "landingDate": "1976-07-20",
+    "endDate": "1982-11-13",
+    "summary": "First successful long-duration soft landing on Mars consisting of an Orbiter and Lander.",
+    "outcome": "Operated for 2,245 sols in Chryse Planitia; delivered first color surface photos, soil chemistry, and atmospheric telemetry.",
+    "equipmentIds": [
+      "R001"
+    ],
+    "majorMilestones": [
+      {
+        "date": "1975-08-20",
+        "title": "Titan IIIE launch"
+      },
+      {
+        "date": "1976-06-19",
+        "title": "Mars orbit insertion"
+      },
+      {
+        "date": "1976-07-20",
+        "title": "Touchdown at Chryse Planitia"
+      },
+      {
+        "date": "1982-11-11",
+        "title": "Final transmission after incorrect uplink command"
+      }
+    ]
+  },
+  {
+    "id": "mission_viking_2",
+    "name": "Viking 2",
+    "program": "Viking Program",
+    "destination": "Mars",
+    "agency": "NASA",
+    "status": "Completed",
+    "launchDate": "1975-09-09",
+    "landingDate": "1976-09-03",
+    "endDate": "1980-04-12",
+    "summary": "Second Viking mission lander deployed to the boulder-strewn plains of Utopia Planitia.",
+    "outcome": "Recorded 1,281 sols of meteorological, imaging, and biology data.",
+    "equipmentIds": [
+      "R002"
+    ],
+    "majorMilestones": [
+      {
+        "date": "1975-09-09",
+        "title": "Titan IIIE launch"
+      },
+      {
+        "date": "1976-09-03",
+        "title": "Touchdown at Utopia Planitia"
+      },
+      {
+        "date": "1980-04-12",
+        "title": "Lander battery failure ends communications"
+      }
+    ]
+  },
+  {
+    "id": "mission_mars_pathfinder",
+    "name": "Mars Pathfinder",
+    "program": "Discovery Program",
+    "destination": "Mars",
+    "agency": "NASA",
+    "status": "Completed",
+    "launchDate": "1996-12-04",
+    "landingDate": "1997-07-04",
+    "endDate": "1998-03-10",
+    "summary": "Low-cost demonstration of airbag landing technology carrying the first mobile planetary rover, Sojourner.",
+    "outcome": "Returned 16,500 images and 8.5 million environmental measurements; proved Mars had catastrophic past floods in Ares Vallis.",
+    "equipmentIds": [
+      "R003",
+      "R004"
+    ],
+    "majorMilestones": [
+      {
+        "date": "1996-12-04",
+        "title": "Delta II launch"
+      },
+      {
+        "date": "1997-07-04",
+        "title": "Touchdown at Ares Vallis using parachute and airbags"
+      },
+      {
+        "date": "1997-07-05",
+        "title": "Sojourner rover rolls down ramp onto Martian soil"
+      },
+      {
+        "date": "1997-09-27",
+        "title": "Final transmission received from lander"
+      }
+    ]
+  },
+  {
+    "id": "mission_mars_exploration_rovers",
+    "name": "Mars Exploration Rovers (Spirit & Opportunity)",
+    "program": "Mars Exploration Program",
+    "destination": "Mars",
+    "agency": "NASA",
+    "status": "Completed",
+    "launchDate": "2003-06-10",
+    "landingDate": "2004-01-04",
+    "endDate": "2019-02-13",
+    "summary": "Twin robotic geologists sent to search for past water activity at Gusev Crater (Spirit) and Meridiani Planum (Opportunity).",
+    "outcome": "Discovered hematite blueberries and silica deposits proving liquid water persisted on ancient Mars; Opportunity set driving record of 45.16 km.",
+    "equipmentIds": [
+      "R005",
+      "R006"
+    ],
+    "majorMilestones": [
+      {
+        "date": "2003-06-10",
+        "title": "Spirit launched on Delta II"
+      },
+      {
+        "date": "2003-07-07",
+        "title": "Opportunity launched on Delta II Heavy"
+      },
+      {
+        "date": "2004-01-04",
+        "title": "Spirit lands in Gusev Crater"
+      },
+      {
+        "date": "2004-01-25",
+        "title": "Opportunity lands in Eagle Crater (Meridiani Planum)"
+      },
+      {
+        "date": "2010-03-22",
+        "title": "Spirit last communication from Troy winter haven"
+      },
+      {
+        "date": "2018-06-10",
+        "title": "Opportunity last contact before global planet-encircling dust storm"
+      },
+      {
+        "date": "2019-02-13",
+        "title": "NASA formally concludes Opportunity mission after 15 years"
+      }
+    ]
+  },
+  {
+    "id": "mission_msl",
+    "name": "Mars Science Laboratory (Curiosity)",
+    "program": "Mars Exploration Program",
+    "destination": "Mars",
+    "agency": "NASA",
+    "status": "Active / Ongoing",
+    "launchDate": "2011-11-26",
+    "landingDate": "2012-08-06",
+    "endDate": "Present",
+    "summary": "Car-sized nuclear-powered rover sent to determine whether Gale Crater ever offered an environment favorable for microbial life.",
+    "outcome": "Pioneered Sky Crane landing system; confirmed ancient freshwater lakes with carbon, nitrogen, oxygen, phosphorus, and sulfur.",
+    "equipmentIds": [
+      "R007"
+    ],
+    "majorMilestones": [
+      {
+        "date": "2011-11-26",
+        "title": "Atlas V launch"
+      },
+      {
+        "date": "2012-08-06",
+        "title": "Touchdown via Sky Crane in Gale Crater"
+      },
+      {
+        "date": "2013-03-12",
+        "title": "Yellowknife Bay drill sample confirms ancient habitable lakebed"
+      },
+      {
+        "date": "2026-10-01",
+        "title": "Active exploration climbing Mount Sharp (Aeolis Mons)"
+      }
+    ]
+  },
+  {
+    "id": "mission_mars_2020",
+    "name": "Mars 2020 (Perseverance & Ingenuity)",
+    "program": "Mars Exploration Program",
+    "destination": "Mars",
+    "agency": "NASA",
+    "status": "Active / Ongoing",
+    "launchDate": "2020-07-30",
+    "landingDate": "2021-02-18",
+    "endDate": "Present",
+    "summary": "Astrobiology mission in Jezero Crater to search for biosignatures, collect sealed sample tubes for Earth return, and demonstrate powered aerial flight.",
+    "outcome": "Perseverance cached 24+ core samples and drove 45.22 km (October 2026); Ingenuity flew 72 times across 17.0 km.",
+    "equipmentIds": [
+      "R008",
+      "R009"
+    ],
+    "majorMilestones": [
+      {
+        "date": "2020-07-30",
+        "title": "Atlas V 541 launch"
+      },
+      {
+        "date": "2021-02-18",
+        "title": "Terrain-Relative Navigation touchdown in Jezero Crater"
+      },
+      {
+        "date": "2021-04-19",
+        "title": "Ingenuity achieves first powered flight on another planet"
+      },
+      {
+        "date": "2024-01-25",
+        "title": "Ingenuity finishes flight mission after 72 flights"
+      },
+      {
+        "date": "2026-10-12",
+        "title": "Perseverance surpasses 45.22 km total drive distance"
+      }
+    ]
+  },
+  {
+    "id": "mission_phoenix",
+    "name": "Phoenix Mars Lander",
+    "program": "Scout Program",
+    "destination": "Mars",
+    "agency": "NASA",
+    "status": "Completed",
+    "launchDate": "2007-08-04",
+    "landingDate": "2008-05-25",
+    "endDate": "2008-11-10",
+    "summary": "Stationary lander targeted to Martian arctic plains of Vastitas Borealis to verify and analyze sub-surface water ice.",
+    "outcome": "Scraped trench in permafrost and directly verified water ice sublimation; discovered perchlorate salts in Martian soil.",
+    "equipmentIds": [
+      "R010"
+    ],
+    "majorMilestones": [
+      {
+        "date": "2007-08-04",
+        "title": "Delta II launch"
+      },
+      {
+        "date": "2008-05-25",
+        "title": "Pulsed rocket thruster soft landing in Green Valley"
+      },
+      {
+        "date": "2008-06-19",
+        "title": "Discovered subsurface white chunks that sublimated, confirming pure water ice"
+      },
+      {
+        "date": "2008-11-10",
+        "title": "Solar power lost during Martian arctic winter"
+      }
+    ]
+  },
+  {
+    "id": "mission_insight",
+    "name": "InSight",
+    "program": "Discovery Program",
+    "destination": "Mars",
+    "agency": "NASA",
+    "status": "Completed",
+    "launchDate": "2018-05-05",
+    "landingDate": "2018-11-26",
+    "endDate": "2022-12-15",
+    "summary": "Geophysical lander equipped with ultra-sensitive seismometer (SEIS) to map the crust, mantle, and molten metallic core of Mars.",
+    "outcome": "Detected 1,319+ marsquakes, measured crust thickness (24–72 km), and determined core radius (~1,830 km).",
+    "equipmentIds": [
+      "R011"
+    ],
+    "majorMilestones": [
+      {
+        "date": "2018-05-05",
+        "title": "Atlas V 401 launch from Vandenberg (first West Coast planetary launch)"
+      },
+      {
+        "date": "2018-11-26",
+        "title": "Touchdown in Elysium Planitia"
+      },
+      {
+        "date": "2019-04-06",
+        "title": "First confirmed seismic signal detected from interior of Mars"
+      },
+      {
+        "date": "2022-12-15",
+        "title": "Solar dust accumulation exhausts battery power; mission retired"
+      }
+    ]
+  },
+  {
+    "id": "mission_mars_odyssey",
+    "name": "2001 Mars Odyssey",
+    "program": "Mars Exploration Program",
+    "destination": "Mars",
+    "agency": "NASA",
+    "status": "Active / Ongoing",
+    "launchDate": "2001-04-07",
+    "arrivalDate": "2001-10-24",
+    "endDate": "Present",
+    "summary": "Longest-operating spacecraft at Mars; mapped global elemental distribution and serves as primary communications relay.",
+    "outcome": "Discovered vast hydrogen deposits indicating sub-surface water ice; relayed >80% of data from Spirit, Opportunity, Phoenix, and Curiosity.",
+    "equipmentIds": [
+      "R013"
+    ],
+    "majorMilestones": [
+      {
+        "date": "2001-04-07",
+        "title": "Delta II launch"
+      },
+      {
+        "date": "2001-10-24",
+        "title": "Aerobraking captures spacecraft into science orbit"
+      },
+      {
+        "date": "2026-04-07",
+        "title": "NASA celebrates 25th continuous year of orbital operations"
+      }
+    ]
+  },
+  {
+    "id": "mission_mro",
+    "name": "Mars Reconnaissance Orbiter (MRO)",
+    "program": "Mars Exploration Program",
+    "destination": "Mars",
+    "agency": "NASA",
+    "status": "Active / Ongoing",
+    "launchDate": "2005-08-12",
+    "arrivalDate": "2006-03-10",
+    "endDate": "Present",
+    "summary": "Equipped with 50 cm aperture HiRISE camera providing 30 cm/pixel imaging of the Martian surface, weather, and mineral deposits.",
+    "outcome": "Scouted every landing site since 2007; identified recurring slope lineae (RSL) and relays huge volumes of data from Perseverance & Curiosity.",
+    "equipmentIds": [
+      "R015"
+    ],
+    "majorMilestones": [
+      {
+        "date": "2005-08-12",
+        "title": "Atlas V 401 launch"
+      },
+      {
+        "date": "2006-03-10",
+        "title": "Mars orbit insertion and 6-month aerobraking"
+      },
+      {
+        "date": "2026-03-10",
+        "title": "Celebrates 20th year in Martian orbit"
+      }
+    ]
+  },
+  {
+    "id": "mission_maven",
+    "name": "MAVEN (Mars Atmosphere and Volatile EvolutioN)",
+    "program": "Mars Exploration Program",
+    "destination": "Mars",
+    "agency": "NASA",
+    "status": "Completed",
+    "launchDate": "2013-11-18",
+    "arrivalDate": "2014-09-21",
+    "endDate": "2024",
+    "summary": "Orbiter built to measure the rate of atmospheric gas loss to space caused by solar wind stripping.",
+    "outcome": "Proved that solar wind stripped away 90% of the Martian atmosphere after the planetary magnetic dynamo collapsed.",
+    "equipmentIds": [
+      "R016"
+    ],
+    "majorMilestones": [
+      {
+        "date": "2013-11-18",
+        "title": "Atlas V 401 launch"
+      },
+      {
+        "date": "2014-09-21",
+        "title": "Mars orbit insertion"
+      },
+      {
+        "date": "2015-11-05",
+        "title": "Announces discovery that solar storms dramatically accelerate atmospheric loss"
+      }
+    ]
+  }
+]
