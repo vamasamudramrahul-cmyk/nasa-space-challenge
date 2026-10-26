@@ -1,0 +1,534 @@
+/*
+ * Prototype 1 visual integration layer for Prototype 2.
+ * Keeps Prototype 2's HTML IDs, route targets, data contracts and app.js behaviors.
+ * Theme: near-black NASA header, cinematic home hero, clean white catalogue pages.
+ */
+:root {
+  --color-nasa-blue: #0b3d91;
+  --color-nasa-blue-hover: #082d6b;
+  --color-nasa-red: #fc3d21;
+  --color-nasa-red-hover: #d82b13;
+  --accent-cyan: #0b3d91;
+  --accent-cyan-hover: #082d6b;
+  --accent-cyan-bg: rgba(11, 61, 145, 0.09);
+  --accent-gold: #b7791f;
+  --accent-gold-bg: rgba(183, 121, 31, 0.12);
+  --accent-mars: #c53125;
+  --accent-mars-hover: #a9271d;
+  --status-historical: #0b3d91;
+  --status-historical-bg: rgba(11, 61, 145, 0.1);
+  --bg-deep: #ffffff;
+  --bg-surface: #f8fafc;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f8fafc;
+  --bg-elevated: #f1f5f9;
+  --border-dim: #e2e8f0;
+  --border-light: #cbd5e1;
+  --border-focus: #0b3d91;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --text-on-accent: #ffffff;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.05);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,.08), 0 2px 4px -2px rgba(0,0,0,.04);
+  --shadow-lg: 0 10px 25px -5px rgba(15,23,42,.12), 0 4px 8px -4px rgba(15,23,42,.08);
+}
+
+html[data-theme="light"] {
+  --accent-cyan: #0b3d91;
+  --accent-cyan-hover: #082d6b;
+  --accent-cyan-bg: rgba(11, 61, 145, 0.09);
+  --border-focus: #0b3d91;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --bg-deep: #ffffff;
+  --bg-surface: #f8fafc;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f8fafc;
+  --bg-elevated: #f1f5f9;
+  --border-dim: #e2e8f0;
+  --border-light: #cbd5e1;
+  color-scheme: light;
+  background: #fff;
+  color: #0f172a;
+}
+html[data-theme="light"] body {
+  background: #fff;
+  background-image: none;
+  color: #0f172a;
+}
+html[data-theme="light"] main { background: #fff; }
+html[data-theme="light"] .view-section { color: #0f172a; }
+html[data-theme="light"] .site-header {
+  background: rgba(2, 3, 10, .97);
+  color: #fff;
+  border-bottom: 1px solid rgba(255,255,255,.12);
+  box-shadow: 0 3px 14px rgba(0,0,0,.14);
+}
+html[data-theme="light"] .header-row-primary { min-height: 68px; height: auto; }
+html[data-theme="light"] .brand-icon {
+  background: radial-gradient(circle at 35% 35%, #0b3d91 0%, #061e47 100%);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,.25);
+  box-shadow: inset 0 0 10px rgba(11,61,145,.65);
+}
+html[data-theme="light"] .brand-title {
+  background: none;
+  -webkit-text-fill-color: #fff;
+  color: #fff;
+  font-size: .93rem;
+  letter-spacing: .045em;
+}
+html[data-theme="light"] .brand-tagline {
+  color: #93c5fd;
+  font-size: .62rem;
+  letter-spacing: .15em;
+}
+html[data-theme="light"] .primary-nav .nav-list { gap: 2px; }
+html[data-theme="light"] .nav-link,
+html[data-theme="light"] .dropdown-trigger {
+  color: #cbd5e1;
+  border-radius: 5px;
+  font-size: .82rem;
+  padding: 8px 9px;
+}
+html[data-theme="light"] .nav-link:hover,
+html[data-theme="light"] .nav-link:focus-visible,
+html[data-theme="light"] .dropdown-trigger:hover,
+html[data-theme="light"] .dropdown-trigger:focus-visible {
+  color: #fff;
+  background: rgba(255,255,255,.08);
+}
+html[data-theme="light"] .nav-link.active {
+  color: #fff;
+  background: rgba(255,255,255,.10);
+  box-shadow: inset 0 -2px #fc3d21;
+}
+html[data-theme="light"] .dropdown-trigger[aria-expanded="true"] {
+  color: #fff;
+  background: rgba(255,255,255,.1);
+}
+html[data-theme="light"] .dropdown-menu {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  box-shadow: 0 16px 34px rgba(15,23,42,.18);
+}
+html[data-theme="light"] .dropdown-menu a {
+  color: #334155;
+  border-radius: 5px;
+}
+html[data-theme="light"] .dropdown-menu a:hover,
+html[data-theme="light"] .dropdown-menu a:focus-visible {
+  color: #0b3d91;
+  background: #f1f5f9;
+}
+html[data-theme="light"] .header-actions .btn-icon {
+  color: #e2e8f0;
+  background: rgba(255,255,255,.06);
+  border-color: rgba(255,255,255,.16);
+}
+html[data-theme="light"] .header-actions .btn-icon:hover {
+  background: rgba(255,255,255,.14);
+  color: #fff;
+}
+html[data-theme="light"] .search-input-header {
+  color: #f8fafc;
+  background: rgba(255,255,255,.08);
+  border-color: rgba(255,255,255,.18);
+}
+html[data-theme="light"] .search-input-header::placeholder { color: #cbd5e1; }
+html[data-theme="light"] .header-row-contextual {
+  background: #080b15;
+  border-top: 1px solid rgba(255,255,255,.06);
+  color: #94a3b8;
+  min-height: 36px;
+}
+html[data-theme="light"] .breadcrumb-trail,
+html[data-theme="light"] .breadcrumb-trail a { color: #94a3b8; }
+html[data-theme="light"] .dataset-badge {
+  background: rgba(16,185,129,.10);
+  color: #a7f3d0;
+  border-color: rgba(16,185,129,.22);
+}
+
+/* The hero uses the actual Prototype 1 starfield component, edge-to-edge. */
+html[data-theme="light"] .view-section#view-home { padding-top: 0; }
+html[data-theme="light"] #view-home > .container { max-width: none; padding: 0; }
+.universe {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  height: min(92svh, 940px);
+  min-height: 620px;
+  max-height: 940px;
+}
+.universe .center-content { width: min(92%, 1120px); }
+.universe #hero-title {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: clamp(1.9rem, 5vw, 4.1rem);
+  line-height: 1.18;
+  letter-spacing: .095em;
+  font-weight: 500;
+  color: #fff;
+  -webkit-text-fill-color: #fff;
+  background: none;
+}
+.universe .hero-eyebrow {
+  margin-bottom: 1.1rem;
+  color: #d8e2ff;
+  font-size: .75rem;
+  letter-spacing: .25em;
+  font-weight: 700;
+}
+.universe .hero-description {
+  max-width: 800px;
+  margin: 1.3rem auto 1.8rem;
+  color: #c3cbe0;
+  font-size: clamp(.98rem, 1.7vw, 1.15rem);
+}
+.universe .hero-actions { gap: 12px; margin-top: 1.5rem; }
+.universe .hero-actions .btn { min-height: 44px; padding: 11px 18px; border-radius: 5px; }
+.universe .hero-actions .btn-primary {
+  color: #fff;
+  background: #0b3d91;
+  border: 1px solid #2d62b0;
+  box-shadow: 0 8px 22px rgba(0,0,0,.22);
+}
+.universe .hero-actions .btn-primary:hover { background: #082d6b; }
+.universe .hero-actions .btn-secondary {
+  color: #fff;
+  background: rgba(255,255,255,.07);
+  border: 1px solid rgba(255,255,255,.32);
+  backdrop-filter: blur(8px);
+}
+.universe .hero-actions .btn-secondary:hover { background: rgba(255,255,255,.15); border-color: #fff; }
+.universe .hero-actions .btn-outline {
+  color: #e2e8f0;
+  background: transparent;
+  border: 1px solid rgba(203,213,225,.55);
+}
+.universe .hero-actions .btn-outline:hover { background: rgba(255,255,255,.1); color: #fff; }
+.hero-scroll-cue {
+  border: 0; background: transparent; cursor: pointer; font-family: inherit;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 1.8rem;
+  color: #aebbd7;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .22em;
+  text-decoration: none;
+}
+.hero-scroll-cue span { font-size: 1.15rem; animation: cueBob 1.8s ease-in-out infinite; }
+.hero-scroll-cue:hover { color: #fff; text-decoration: none; }
+@keyframes cueBob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(4px); } }
+
+/* Prototype 1's overlapping destination-card treatment, with Prototype 2 routes. */
+html[data-theme="light"] .destinations-grid {
+  position: relative;
+  z-index: 6;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: 0;
+  margin: -42px auto 60px;
+  max-width: 1240px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 18px 42px rgba(15,23,42,.12);
+}
+html[data-theme="light"] .dest-card {
+  background: #fff;
+  border: 0;
+  border-right: 1px solid #e2e8f0;
+  border-radius: 0;
+  padding: 26px 28px;
+  box-shadow: none;
+}
+html[data-theme="light"] .dest-card:last-child { border-right: 0; }
+html[data-theme="light"] .dest-card:hover { transform: translateY(-3px); box-shadow: inset 0 3px #0b3d91; }
+html[data-theme="light"] .dest-card-title { color: #0f172a; font-size: 1.35rem; }
+html[data-theme="light"] .dest-card-desc { color: #475569; }
+html[data-theme="light"] .dest-card-meta { color: #64748b; border-top-color: #e2e8f0; }
+html[data-theme="light"] .dest-card-badge { border-radius: 4px; padding: 4px 8px; background: #eff6ff; color: #0b3d91; }
+html[data-theme="light"] .dest-card.mars .dest-card-badge { background: #fff1f0; color: #b91c1c; }
+html[data-theme="light"] .dest-card.solar .dest-card-badge { background: #f1f5f9; color: #334155; }
+html[data-theme="light"] .btn-card-link { color: #0b3d91; }
+html[data-theme="light"] .btn-card-link:hover { color: #082d6b; }
+
+/* Main pages: bright, editorial surfaces from Prototype 1. */
+html[data-theme="light"] .view-section:not(#view-home) { background: #fff; }
+html[data-theme="light"] .view-section:not(#view-home) > .container { padding-top: 30px; }
+html[data-theme="light"] .section-header { margin-bottom: 28px; }
+html[data-theme="light"] .section-eyebrow { color: #0b3d91; letter-spacing: .12em; }
+html[data-theme="light"] .section-title { color: #0f172a; letter-spacing: -.02em; }
+html[data-theme="light"] .section-description { color: #475569; }
+html[data-theme="light"] .equipment-card,
+html[data-theme="light"] .mission-card,
+html[data-theme="light"] .planet-card,
+html[data-theme="light"] .compare-panel,
+html[data-theme="light"] .quiz-card,
+html[data-theme="light"] .glossary-item,
+html[data-theme="light"] .source-card,
+html[data-theme="light"] .info-card,
+html[data-theme="light"] .panel,
+html[data-theme="light"] .content-card {
+  background: #fff;
+  border-color: #e2e8f0;
+  color: #0f172a;
+  box-shadow: 0 2px 10px rgba(15,23,42,.045);
+}
+html[data-theme="light"] .equipment-card:hover { border-color: #94a3b8; box-shadow: 0 10px 22px rgba(15,23,42,.09); }
+html[data-theme="light"] .equipment-card-title,
+html[data-theme="light"] .equipment-card h3,
+html[data-theme="light"] .equipment-card h2,
+html[data-theme="light"] .mission-card h3,
+html[data-theme="light"] .planet-card h3,
+html[data-theme="light"] .glossary-term { color: #0f172a; }
+html[data-theme="light"] .equipment-card-desc,
+html[data-theme="light"] .equipment-card-mission,
+html[data-theme="light"] .equipment-card-meta,
+html[data-theme="light"] .glossary-def,
+html[data-theme="light"] .source-card p { color: #475569; }
+html[data-theme="light"] .equipment-card-media,
+html[data-theme="light"] .equipment-card-img-placeholder { background: #f1f5f9; }
+html[data-theme="light"] .equipment-card-footer { border-top-color: #e2e8f0; }
+html[data-theme="light"] .filter-panel,
+html[data-theme="light"] .filters-panel,
+html[data-theme="light"] .filter-bar,
+html[data-theme="light"] .compare-controls,
+html[data-theme="light"] .compare-selector-bar,
+html[data-theme="light"] .glossary-controls,
+html[data-theme="light"] .table-container,
+html[data-theme="light"] .table-responsive {
+  background: #fff;
+  border-color: #e2e8f0;
+  color: #0f172a;
+}
+html[data-theme="light"] input,
+html[data-theme="light"] select,
+html[data-theme="light"] textarea,
+html[data-theme="light"] .filter-select,
+html[data-theme="light"] .filter-search {
+  background-color: #fff;
+  color: #0f172a;
+  border-color: #cbd5e1;
+}
+html[data-theme="light"] input::placeholder,
+html[data-theme="light"] textarea::placeholder { color: #64748b; }
+html[data-theme="light"] .btn-primary { background: #0b3d91; color: #fff; border-color: #0b3d91; }
+html[data-theme="light"] .btn-primary:hover { background: #082d6b; }
+html[data-theme="light"] .btn-secondary { background: #f1f5f9; color: #0f172a; border-color: #cbd5e1; }
+html[data-theme="light"] .btn-secondary:hover { background: #e2e8f0; }
+html[data-theme="light"] .btn-outline { color: #0b3d91; border-color: #0b3d91; background: #fff; }
+html[data-theme="light"] .btn-outline:hover { color: #082d6b; background: #eff6ff; }
+html[data-theme="light"] .btn-view-toggle { color: #334155; }
+html[data-theme="light"] .btn-view-toggle.active { color: #0b3d91; background: #eff6ff; border-color: #bfdbfe; }
+html[data-theme="light"] table { color: #0f172a; }
+html[data-theme="light"] th { background: #f1f5f9; color: #334155; }
+html[data-theme="light"] td, html[data-theme="light"] th { border-color: #e2e8f0; }
+html[data-theme="light"] tr:hover td { background: #f8fafc; }
+html[data-theme="light"] .status-historical-badge { color: #0b3d91; background: #eff6ff; }
+
+/* Preserve dark scientific visualisations; only their surrounding panels are light. */
+html[data-theme="light"] .globe-stage,
+html[data-theme="light"] .globe-container,
+html[data-theme="light"] .solar-system-stage,
+html[data-theme="light"] #missionMapCanvas,
+html[data-theme="light"] #moonGlobeCanvas,
+html[data-theme="light"] #marsGlobeCanvas { background-color: #05070d; }
+html[data-theme="light"] .globe-hud,
+html[data-theme="light"] .globe-hud-title,
+html[data-theme="light"] .globe-hud-coords { color: #e2e8f0; }
+html[data-theme="light"] .globe-btn-ctrl { color: #0f172a; background: #fff; border-color: #cbd5e1; }
+
+/* Modal and notification surfaces stay legible with the white-page design. */
+html[data-theme="light"] .modal-dialog,
+html[data-theme="light"] .modal-content,
+html[data-theme="light"] .drawer-panel,
+html[data-theme="light"] .search-modal,
+html[data-theme="light"] .search-modal-content {
+  background: #fff;
+  color: #0f172a;
+  border-color: #e2e8f0;
+}
+html[data-theme="light"] .modal-header,
+html[data-theme="light"] .modal-footer { border-color: #e2e8f0; }
+html[data-theme="light"] .modal-body,
+html[data-theme="light"] .modal-body p,
+html[data-theme="light"] .modal-body label { color: #334155; }
+html[data-theme="light"] .btn-close-modal { color: #475569; }
+html[data-theme="light"] .btn-close-modal:hover { background: #f1f5f9; color: #0f172a; }
+html[data-theme="light"] .site-footer { background: #070914; color: #cbd5e1; border-top-color: #1e293b; }
+html[data-theme="light"] .site-footer .footer-heading,
+html[data-theme="light"] .site-footer .brand-title { color: #f8fafc; }
+html[data-theme="light"] .site-footer p,
+html[data-theme="light"] .site-footer li,
+html[data-theme="light"] .site-footer button { color: #94a3b8; }
+html[data-theme="light"] .site-footer a:hover,
+html[data-theme="light"] .site-footer button:hover { color: #fff !important; }
+
+/* Responsive / accessible finishing touches */
+@media (max-width: 1024px) {
+  html[data-theme="light"] .destinations-grid { margin: -28px 18px 44px; width: auto; grid-template-columns: 1fr; }
+  html[data-theme="light"] .dest-card { border-right: 0; border-bottom: 1px solid #e2e8f0; padding: 22px; }
+  html[data-theme="light"] .dest-card:last-child { border-bottom: 0; }
+  .universe { min-height: 620px; height: calc(100svh - 100px); }
+  .universe .hero-description { max-width: 680px; }
+}
+@media (max-width: 768px) {
+  html[data-theme="light"] .header-row-primary { padding-top: 8px; padding-bottom: 8px; }
+  html[data-theme="light"] .brand-title { font-size: .76rem; }
+  html[data-theme="light"] .brand-tagline { font-size: .53rem; }
+  html[data-theme="light"] .header-row-contextual { display: none; }
+  .universe { width: 100vw; min-height: 600px; height: calc(100svh - 68px); margin-left: calc(50% - 50vw); }
+  .universe .center-content { width: calc(100% - 32px); }
+  .universe #hero-title { font-size: clamp(1.65rem, 8vw, 2.6rem); letter-spacing: .04em; }
+  .universe .hero-eyebrow { font-size: .61rem; letter-spacing: .13em; }
+  .universe .hero-description { font-size: .92rem; margin: 1rem auto 1.2rem; }
+  .universe .hero-actions { gap: 9px; }
+  .universe .hero-actions .btn { width: 100%; max-width: 320px; justify-content: center; }
+  .hero-scroll-cue { margin-top: 1.1rem; }
+  html[data-theme="light"] .view-section:not(#view-home) > .container { padding-top: 20px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-scroll-cue span { animation: none; }
+  html { scroll-behavior: auto; }
+}
+
+/* ========================================================================
+   Screen-by-screen integration: Moon, Mars, and Explore Planets
+   Based on the user's 13-page reference plan. Keeps the site's route/data IDs.
+   ======================================================================== */
+.destination-hero {
+  --hero-accent: #0b3d91;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  min-height: 278px;
+  margin: 0 0 26px;
+  padding: clamp(22px, 4vw, 42px);
+  overflow: hidden;
+  isolation: isolate;
+  color: #f8fafc;
+  border: 1px solid rgba(148,163,184,.24);
+  border-radius: 14px;
+  background-image: linear-gradient(90deg, rgba(3,8,20,.96) 0%, rgba(3,8,20,.84) 42%, rgba(3,8,20,.26) 100%), var(--hero-image);
+  background-size: cover;
+  background-position: center 45%;
+  box-shadow: 0 15px 35px rgba(15,23,42,.14);
+}
+.destination-hero::after {
+  position: absolute;
+  z-index: -1;
+  right: -80px;
+  bottom: -130px;
+  width: 340px;
+  height: 340px;
+  content: "";
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 50%;
+  box-shadow: 0 0 0 28px rgba(255,255,255,.035), 0 0 0 65px rgba(255,255,255,.025), inset 0 0 65px rgba(255,255,255,.08);
+  pointer-events: none;
+}
+.destination-hero-content { position: relative; z-index: 1; width: min(790px, 78%); }
+.destination-breadcrumbs { display: flex; align-items: center; gap: 9px; margin-bottom: 15px; color: rgba(226,232,240,.8); font-size: .76rem; }
+.destination-breadcrumbs a { color: #e2e8f0; text-decoration: none; }
+.destination-breadcrumbs a:hover { color: #fff; text-decoration: underline; }
+.destination-hero .section-eyebrow { margin-bottom: 7px; color: #93c5fd; font-size: .72rem; letter-spacing: .13em; }
+.destination-hero-title { margin: 0 0 9px; color: #fff; font-size: clamp(2rem, 4vw, 3.25rem); line-height: 1.05; letter-spacing: -.035em; font-weight: 800; }
+.destination-hero-description { max-width: 740px; margin: 0; color: rgba(241,245,249,.92); font-size: .96rem; line-height: 1.65; }
+.destination-shortcuts { display: flex; flex-wrap: wrap; gap: 23px; margin-top: 22px; }
+.destination-shortcuts a { display: inline-flex; align-items: center; gap: 7px; padding: 0; color: #fff; font-size: .88rem; font-weight: 650; text-decoration: none; border: 0; background: transparent; box-shadow: none; }
+.destination-shortcuts a span { color: #93c5fd; font-size: .9rem; transition: transform .15s ease; }
+.destination-shortcuts a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.destination-shortcuts a:hover span { transform: translate(2px,-2px); }
+.destination-hero-stats { z-index: 1; align-self: flex-end; display: flex; flex-direction: column; gap: 3px; margin: auto 0 0 auto; padding: 14px 16px; min-width: 172px; border: 1px solid rgba(255,255,255,.2); border-radius: 10px; background: rgba(3,8,20,.48); backdrop-filter: blur(9px); }
+.destination-stat-number { color: #fff; font-weight: 800; font-size: 1.15rem; }
+.destination-stat-label { color: #e2e8f0; font-size: .75rem; }
+.destination-stat-note { color: #cbd5e1; font-size: .68rem; }
+.mars-hero { --hero-accent: #b91c1c; background-position: center 46%; }
+.planets-hero { --hero-accent: #0b3d91; background-position: center 50%; }
+
+.map-explorer-toolbar { display: flex; align-items: center; gap: 12px; margin: 0 0 10px; padding: 9px 10px; border: 1px solid var(--border-dim); border-radius: 10px; background: var(--bg-card); box-shadow: var(--shadow-sm); }
+.map-search-wrap { position: relative; flex: 1 1 380px; min-width: 150px; }
+.map-search-icon { position: absolute; z-index: 1; top: 50%; left: 13px; width: 18px; height: 18px; fill: none; stroke: var(--text-muted); stroke-width: 1.8; transform: translateY(-50%); pointer-events: none; }
+.map-search-input { width: 100%; min-height: 42px; padding: 9px 12px 9px 40px; border: 1px solid var(--border-dim); border-radius: 7px; background: var(--bg-surface); color: var(--text-primary); font: inherit; font-size: .9rem; outline: none; }
+.map-search-input:focus { border-color: var(--border-focus); box-shadow: 0 0 0 3px rgba(11,61,145,.12); }
+.map-toolbar-actions { display: flex; gap: 7px; align-items: center; }
+.map-toolbar-btn { display: inline-flex; align-items: center; justify-content: center; gap: 7px; min-height: 40px; padding: 8px 13px; border: 1px solid var(--border-dim); border-radius: 7px; background: var(--bg-card); color: var(--text-primary); font: inherit; font-size: .84rem; font-weight: 650; cursor: pointer; transition: background .15s, border-color .15s, transform .15s; white-space: nowrap; }
+.map-toolbar-btn:hover { border-color: var(--border-focus); background: var(--bg-elevated); transform: translateY(-1px); }
+.map-toolbar-btn span { font-size: 1.05rem; color: var(--accent-cyan); }
+.map-search-suggestions { position: absolute; z-index: 60; top: calc(100% + 7px); left: 0; right: 0; max-height: 310px; overflow-y: auto; padding: 5px; border: 1px solid var(--border-dim); border-radius: 9px; background: var(--bg-card); box-shadow: 0 16px 36px rgba(15,23,42,.22); }
+.map-search-suggestions[hidden] { display: none; }
+.map-search-result { display: flex; flex-direction: column; width: 100%; gap: 2px; padding: 10px 12px; border: 0; border-radius: 6px; text-align: left; background: transparent; color: var(--text-primary); cursor: pointer; }
+.map-search-result:hover, .map-search-result:focus-visible { background: var(--accent-cyan-bg); outline: none; }
+.map-search-result-name { font-size: .87rem; font-weight: 700; }
+.map-search-result-meta { color: var(--text-secondary); font-size: .74rem; }
+.map-search-empty { padding: 12px; color: var(--text-secondary); font-size: .82rem; }
+
+.enhanced-map-viewport { background: #030712; border-radius: 10px; border-color: #1e293b; }
+.enhanced-map-viewport::before { position: absolute; z-index: 0; inset: 0; content: ""; opacity: .62; pointer-events: none; background-image: radial-gradient(1px 1px at 9% 18%, #fff 60%, transparent 100%), radial-gradient(1px 1px at 24% 77%, #93c5fd 60%, transparent 100%), radial-gradient(1.5px 1.5px at 71% 27%, #fff 60%, transparent 100%), radial-gradient(1px 1px at 85% 68%, #fff 60%, transparent 100%), radial-gradient(1px 1px at 64% 83%, #fff 60%, transparent 100%), radial-gradient(1px 1px at 43% 12%, #dbeafe 60%, transparent 100%); background-size: 310px 230px; }
+.enhanced-map-viewport .globe-canvas { position: relative; z-index: 1; }
+.enhanced-map-viewport .globe-hud-overlay, .enhanced-map-viewport .globe-controls-bar, .enhanced-map-viewport .globe-marker-popup { z-index: 4; }
+.map-utility-controls { position: absolute; z-index: 20; top: 15px; right: 15px; display: flex; flex-direction: column; align-items: center; gap: 5px; padding: 6px; border: 1px solid rgba(148,163,184,.25); border-radius: 9px; background: rgba(3,7,18,.82); box-shadow: 0 10px 25px rgba(0,0,0,.2); backdrop-filter: blur(8px); }
+.map-utility-btn { display: grid; place-items: center; width: 34px; height: 34px; border: 1px solid transparent; border-radius: 6px; color: #e2e8f0; background: transparent; font: 700 1rem/1 var(--font-sans); cursor: pointer; }
+.map-utility-btn:hover, .map-utility-btn:focus-visible { border-color: rgba(147,197,253,.65); background: rgba(30,64,175,.3); color: #fff; outline: none; }
+.map-utility-divider { width: 20px; height: 1px; background: rgba(148,163,184,.35); }
+.map-popover { position: absolute; z-index: 25; right: 63px; top: 15px; display: flex; flex-direction: column; gap: 3px; min-width: 190px; padding: 10px; border: 1px solid rgba(148,163,184,.3); border-radius: 9px; background: rgba(3,7,18,.95); color: #e2e8f0; box-shadow: 0 15px 36px rgba(0,0,0,.28); backdrop-filter: blur(10px); }
+.map-popover[hidden] { display: none; }
+.map-popover strong { margin: 2px 7px 6px; color: #fff; font-size: .78rem; letter-spacing: .04em; }
+.map-popover a { padding: 7px; border-radius: 5px; color: #cbd5e1; text-decoration: none; font-size: .79rem; }
+.map-popover a:hover { color: #fff; background: rgba(59,130,246,.2); }
+.map-layers-popover label { display: flex; align-items: center; gap: 8px; padding: 7px; color: #cbd5e1; font-size: .78rem; cursor: pointer; }
+.map-layers-popover input { accent-color: #38bdf8; }
+.map-loading-overlay { position: absolute; z-index: 40; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 9px; color: #e2e8f0; background: #030712; opacity: 0; visibility: hidden; transition: opacity .25s ease, visibility .25s ease; pointer-events: none; }
+.map-loading-overlay.is-visible { opacity: 1; visibility: visible; }
+.map-loading-overlay strong { font-size: .9rem; font-weight: 600; }
+.map-loading-overlay span { color: #94a3b8; font-size: .76rem; }
+.map-loader-spinner { width: 27px; height: 27px; border: 2px solid rgba(148,163,184,.28); border-top-color: #38bdf8; border-radius: 50%; animation: mapSpin .75s linear infinite; }
+@keyframes mapSpin { to { transform: rotate(360deg); } }
+
+.enhanced-solar-map { padding: 0; background: #030712; border-color: #1e293b; }
+.enhanced-solar-map .solar-canvas-wrapper { height: 520px; }
+.enhanced-solar-map #solarCanvas { background: #030712; }
+.enhanced-solar-map .solar-controls { z-index: 8; border-color: rgba(148,163,184,.25); background: rgba(3,7,18,.82); color: #cbd5e1; }
+.planet-utility-controls { top: 14px; right: 14px; }
+.enhanced-solar-map .map-popover { top: 14px; }
+.map-info-backdrop { z-index: 1500; }
+.map-info-dialog { width: min(520px, calc(100vw - 28px)); }
+.map-info-title { font-size: 1.35rem; font-weight: 800; }
+.map-info-note { margin-top: 16px; padding: 14px; border-left: 3px solid #0b3d91; border-radius: 6px; background: var(--bg-surface); }
+.map-info-note strong { display: block; margin-bottom: 4px; color: var(--text-primary); }
+.map-info-note p { margin: 0; color: var(--text-secondary); font-size: .86rem; line-height: 1.6; }
+.map-info-actions { display: flex; justify-content: flex-end; margin-top: 18px; }
+.planet-card.is-selected { border-color: #0b3d91 !important; box-shadow: 0 0 0 3px rgba(11,61,145,.12), var(--shadow-md); transform: translateY(-2px); }
+.planet-card { cursor: pointer; transition: border-color .15s, box-shadow .15s, transform .15s; }
+
+@media (max-width: 760px) {
+  .destination-hero { min-height: 0; padding: 23px 19px; background-position: center; }
+  .destination-hero-content { width: 100%; }
+  .destination-hero-stats { display: none; }
+  .destination-hero-description { max-width: 100%; font-size: .9rem; }
+  .destination-hero-title { font-size: 2rem; }
+  .destination-shortcuts { gap: 17px; margin-top: 17px; }
+  .map-explorer-toolbar { align-items: stretch; flex-direction: column; }
+  .map-search-wrap { flex: 1 1 auto; width: 100%; }
+  .map-toolbar-actions { justify-content: flex-end; }
+  .map-toolbar-btn { flex: 1; }
+  .globe-viewport-container.enhanced-map-viewport { height: 410px; }
+  .enhanced-solar-map .solar-canvas-wrapper { height: 370px; }
+  .map-utility-controls { top: 9px; right: 9px; gap: 3px; padding: 4px; }
+  .map-utility-btn { width: 30px; height: 30px; }
+  .map-popover { right: 52px; top: 9px; }
+  .enhanced-map-viewport .globe-hud-overlay { top: 9px; left: 9px; max-width: calc(100% - 105px); padding: 8px 10px; }
+  .enhanced-map-viewport .globe-hud-title { font-size: .8rem; }
+  .enhanced-map-viewport .globe-hud-coords { font-size: .67rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .map-loader-spinner { animation: none; }
+  .destination-shortcuts a span, .map-toolbar-btn, .planet-card { transition: none; }
+}
