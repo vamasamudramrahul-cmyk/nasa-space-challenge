@@ -1,0 +1,8 @@
+{
+  "note": "MOCK CONTENT for testing the notification bell. These are not real site updates. 'minor' items never trigger the red dot.",
+  "updates": [
+    { "id": "mock-u3", "date": "2026-11-01", "title": "Mock update: important announcement", "body": "Mock content used only to test the ANNOUNCEMENT label and the unread dot. This is not real site news.", "important": true,  "minor": false, "mock": true },
+    { "id": "mock-u2", "date": "2026-10-28", "title": "Mock update: new feature note",        "body": "Mock content used only to test the NEW label and read tracking. This is not real site news.",               "important": false, "minor": false, "mock": true },
+    { "id": "mock-u1", "date": "2026-10-20", "title": "Mock update: minor correction",        "body": "Mock content for a minor correction. Minor items do not trigger the red dot.",                             "important": false, "minor": true,  "mock": true }
+  ]
+}
