@@ -1,0 +1,227 @@
+{
+  "schema_version": "1.0",
+  "note": "Prototype source index generated from equipment primary_sources. Claim-level evidence review remains outstanding.",
+  "sources": [
+    {
+      "id": "src_moon_apollo_lrv_1",
+      "title": "The Apollo Lunar Roving Vehicle",
+      "publisher": "NASA",
+      "type": "Mission page",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+      "equipment_ids": [
+        "moon_apollo_lrv"
+      ],
+      "mission": "Apollo 15, Apollo 16, Apollo 17",
+      "verification": "Needs claim-level review",
+      "description": "NASA mission information associated with Apollo Lunar Roving Vehicle. Verify individual claims and publication metadata before production use."
+    },
+    {
+      "id": "src_moon_apollo_lrv_2",
+      "title": "Taking a Ride on the Moon in the Lunar Roving Vehicle",
+      "publisher": "NASA",
+      "type": "Mission page",
+      "url": "https://www.nasa.gov/image-article/taking-ride-moon-lunar-roving-vehicle/",
+      "equipment_ids": [
+        "moon_apollo_lrv"
+      ],
+      "mission": "Apollo 15, Apollo 16, Apollo 17",
+      "verification": "Needs claim-level review",
+      "description": "NASA mission information associated with Apollo Lunar Roving Vehicle. Verify individual claims and publication metadata before production use."
+    },
+    {
+      "id": "src_moon_apollo_lrv_3",
+      "title": "Apollo 15 on the Moon",
+      "publisher": "NASA",
+      "type": "Mission page",
+      "url": "https://science.nasa.gov/resource/apollo-15-on-the-moon/",
+      "equipment_ids": [
+        "moon_apollo_lrv"
+      ],
+      "mission": "Apollo 15, Apollo 16, Apollo 17",
+      "verification": "Needs claim-level review",
+      "description": "NASA mission information associated with Apollo Lunar Roving Vehicle. Verify individual claims and publication metadata before production use."
+    },
+    {
+      "id": "src_moon_surveyor_3_4",
+      "title": "Surveyor 3 \u2014 NASA Science",
+      "publisher": "NASA",
+      "type": "Mission page",
+      "url": "https://science.nasa.gov/mission/surveyor-3/",
+      "equipment_ids": [
+        "moon_surveyor_3"
+      ],
+      "mission": "Surveyor 3",
+      "verification": "Needs claim-level review",
+      "description": "NASA mission information associated with Surveyor 3. Verify individual claims and publication metadata before production use."
+    },
+    {
+      "id": "src_moon_surveyor_3_5",
+      "title": "Apollo 12 and Surveyor 3 \u2014 NASA Science",
+      "publisher": "NASA",
+      "type": "Mission page",
+      "url": "https://science.nasa.gov/resource/apollo-12-and-surveyor-3/",
+      "equipment_ids": [
+        "moon_surveyor_3"
+      ],
+      "mission": "Surveyor 3",
+      "verification": "Needs claim-level review",
+      "description": "NASA mission information associated with Surveyor 3. Verify individual claims and publication metadata before production use."
+    },
+    {
+      "id": "src_moon_apollo_lm_descent_stage_6",
+      "title": "Apollo Landing Sites \u2014 NASA Science",
+      "publisher": "NASA",
+      "type": "Mission page",
+      "url": "https://science.nasa.gov/resource/apollo-landing-sites/",
+      "equipment_ids": [
+        "moon_apollo_lm_descent_stage"
+      ],
+      "mission": "Apollo lunar landing missions",
+      "verification": "Needs claim-level review",
+      "description": "NASA mission information associated with Apollo Lunar Module Descent Stage. Verify individual claims and publication metadata before production use."
+    },
+    {
+      "id": "src_moon_apollo_lm_descent_stage_7",
+      "title": "Lunar Module \u2014 NASA historical technical overview",
+      "publisher": "NASA",
+      "type": "Mission page",
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/08_LM_%26_SLA_Overview_pp61-68.pdf",
+      "equipment_ids": [
+        "moon_apollo_lm_descent_stage"
+      ],
+      "mission": "Apollo lunar landing missions",
+      "verification": "Needs claim-level review",
+      "description": "NASA mission information associated with Apollo Lunar Module Descent Stage. Verify individual claims and publication metadata before production use."
+    },
+    {
+      "id": "src_mars_spirit_8",
+      "title": "Spirit \u2014 NASA Science",
+      "publisher": "NASA",
+      "type": "Mission page",
+      "url": "https://science.nasa.gov/mission/mer-spirit/",
+      "equipment_ids": [
+        "mars_spirit"
+      ],
+      "mission": "Mars Exploration Rover",
+      "verification": "Needs claim-level review",
+      "description": "NASA mission information associated with Spirit. Verify individual claims and publication metadata before production use."
+    },
+    {
+      "id": "src_mars_spirit_9",
+      "title": "Mars Exploration Rovers: Spirit and Opportunity",
+      "publisher": "NASA",
+      "type": "Mission page",
+      "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+      "equipment_ids": [
+        "mars_spirit"
+      ],
+      "mission": "Mars Exploration Rover",
+      "verification": "Needs claim-level review",
+      "description": "NASA mission information associated with Spirit. Verify individual claims and publication metadata before production use."
+    },
+    {
+      "id": "src_mars_opportunity_10",
+      "title": "Opportunity \u2014 NASA Science",
+      "publisher": "NASA",
+      "type": "Mission page",
+      "url": "https://science.nasa.gov/mission/mer-opportunity/",
+      "equipment_ids": [
+        "mars_opportunity"
+      ],
+      "mission": "Mars Exploration Rover",
+      "verification": "Needs claim-level review",
+      "description": "NASA mission information associated with Opportunity. Verify individual claims and publication metadata before production use."
+    },
+    {
+      "id": "src_mars_opportunity_11",
+      "title": "Mars Exploration Rovers: Spirit and Opportunity",
+      "publisher": "NASA",
+      "type": "Mission page",
+      "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+      "equipment_ids": [
+        "mars_opportunity"
+      ],
+      "mission": "Mars Exploration Rover",
+      "verification": "Needs claim-level review",
+      "description": "NASA mission information associated with Opportunity. Verify individual claims and publication metadata before production use."
+    },
+    {
+      "id": "src_mars_ingenuity_12",
+      "title": "Ingenuity Mars Helicopter \u2014 NASA Science",
+      "publisher": "NASA",
+      "type": "Mission page",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+      "equipment_ids": [
+        "mars_ingenuity"
+      ],
+      "mission": "Mars 2020 / Perseverance",
+      "verification": "Needs claim-level review",
+      "description": "NASA mission information associated with Ingenuity Mars Helicopter. Verify individual claims and publication metadata before production use."
+    },
+    {
+      "id": "src_mars_ingenuity_13",
+      "title": "After Three Years on Mars, NASA\u2019s Ingenuity Helicopter Mission Ends",
+      "publisher": "NASA",
+      "type": "Mission page",
+      "url": "https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/",
+      "equipment_ids": [
+        "mars_ingenuity"
+      ],
+      "mission": "Mars 2020 / Perseverance",
+      "verification": "Needs claim-level review",
+      "description": "NASA mission information associated with Ingenuity Mars Helicopter. Verify individual claims and publication metadata before production use."
+    },
+    {
+      "id": "src_mars_curiosity_14",
+      "title": "Curiosity Rover \u2014 NASA Science",
+      "publisher": "NASA",
+      "type": "Mission page",
+      "url": "https://science.nasa.gov/mission/msl-curiosity/",
+      "equipment_ids": [
+        "mars_curiosity"
+      ],
+      "mission": "Mars Science Laboratory",
+      "verification": "Needs claim-level review",
+      "description": "NASA mission information associated with Curiosity. Verify individual claims and publication metadata before production use."
+    },
+    {
+      "id": "src_mars_viking1_lander_15",
+      "title": "Viking 1 \u2014 NASA Science",
+      "publisher": "NASA",
+      "type": "Mission page",
+      "url": "https://science.nasa.gov/mission/viking-1/",
+      "equipment_ids": [
+        "mars_viking1_lander"
+      ],
+      "mission": "Viking 1",
+      "verification": "Needs claim-level review",
+      "description": "NASA mission information associated with Viking 1 Lander. Verify individual claims and publication metadata before production use."
+    },
+    {
+      "id": "src_mars_phoenix_lander_16",
+      "title": "Phoenix Mars Mission \u2014 NASA",
+      "publisher": "NASA",
+      "type": "Mission page",
+      "url": "https://science.nasa.gov/mission/phoenix/",
+      "equipment_ids": [
+        "mars_phoenix_lander"
+      ],
+      "mission": "Phoenix",
+      "verification": "Needs claim-level review",
+      "description": "NASA mission information associated with Phoenix Mars Lander. Verify individual claims and publication metadata before production use."
+    },
+    {
+      "id": "src_mars_insight_lander_17",
+      "title": "InSight Mission \u2014 NASA Science",
+      "publisher": "NASA",
+      "type": "Mission page",
+      "url": "https://science.nasa.gov/mission/insight/",
+      "equipment_ids": [
+        "mars_insight_lander"
+      ],
+      "mission": "Interior Exploration using Seismic Investigations, Geodesy and Heat Transport",
+      "verification": "Needs claim-level review",
+      "description": "NASA mission information associated with InSight Lander. Verify individual claims and publication metadata before production use."
+    }
+  ]
+}

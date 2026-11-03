@@ -1,0 +1,409 @@
+{
+  "schema_version": "1.1",
+  "dataset_title": "Expanded Prototype Equipment Dataset — 10 NASA mission records",
+  "selection_count": 10,
+  "image_policy": "Carousel image references point to NASA/JPL source assets. The direct image URLs are intended for browser display or download by the prototype builder. Source page and image credit must remain attached to each image.",
+  "important_note": "NASA carousel photographs are referenced by direct URL and are not embedded as local photo files in this ZIP. Two Mars rover records use NASA/JPL engineering-testbed photographs, clearly labelled as testbed images, because the selected source photographs show the rover hardware clearly. Do not imply those testbed images were taken on Mars. Four additional records are text-only prototype entries with primary NASA source links; re-check current status and all claims before production publication.",
+  "records": [
+    {
+      "id": "moon_apollo_lrv",
+      "name": "Apollo Lunar Roving Vehicle",
+      "destination": "Moon",
+      "mission": "Apollo 15, Apollo 16, Apollo 17",
+      "category": "Rovers",
+      "launch_or_deployment": "Used on the Moon during Apollo 15 (1971), Apollo 16 (1972) and Apollo 17 (1972)",
+      "short_description": "The battery-powered Lunar Roving Vehicle let Apollo astronauts travel farther across the Moon, carrying people, tools and lunar samples over rugged terrain.",
+      "story_hook": "The first crew-driven car on another world expanded the distance astronauts could explore during the later Apollo surface missions.",
+      "educational_value": [
+        "Lunar mobility and low-gravity vehicle design",
+        "Wire-mesh wheels and operation in vacuum",
+        "How mobility expanded geological exploration"
+      ],
+      "status_wording": "Left on the lunar surface after its Apollo mission traverses; do not describe it as operational.",
+      "image_source_page": "https://www.nasa.gov/image-article/taking-ride-moon-lunar-roving-vehicle/",
+      "image_credit": "NASA",
+      "primary_sources": [
+        {
+          "title": "The Apollo Lunar Roving Vehicle",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+        },
+        {
+          "title": "Taking a Ride on the Moon in the Lunar Roving Vehicle",
+          "url": "https://www.nasa.gov/image-article/taking-ride-moon-lunar-roving-vehicle/"
+        },
+        {
+          "title": "Apollo 15 on the Moon",
+          "url": "https://science.nasa.gov/resource/apollo-15-on-the-moon/"
+        }
+      ],
+      "source_verified_claims": [
+        "Three LRVs were driven on the Moon: Apollo 15, 16 and 17.",
+        "The vehicle was battery-powered and extended the astronauts' range of surface exploration.",
+        "NASA's NSSDCA gives Apollo 15 LRV travel as 27.8 km; avoid mixing figures from different missions."
+      ],
+      "cautions": [
+        "Do not assign a single distance to all three rovers.",
+        "Do not imply the vehicle was designed for long-term autonomous operation."
+      ],
+      "carousel_image": {
+        "url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/lunar-science/2023/09/eugene_cernan-full-a.jpg",
+        "source_page": "https://science.nasa.gov/resource/apollo-17-gene-cernan-in-lunar-roving-vehicle/?category=images",
+        "credit": "NASA/Harrison Schmitt",
+        "alt": "Apollo Lunar Roving Vehicle — NASA mission photograph",
+        "image_note": "Apollo 17 mission photograph showing Gene Cernan driving the Lunar Roving Vehicle, with the Lunar Module in the background.",
+        "type": "NASA/JPL photograph",
+        "downloaded_locally": false
+      }
+    },
+    {
+      "id": "moon_surveyor_3",
+      "name": "Surveyor 3",
+      "destination": "Moon",
+      "mission": "Surveyor 3",
+      "category": "Landers",
+      "launch_or_deployment": "Launched 17 April 1967; soft-landed 20 April 1967",
+      "short_description": "Surveyor 3 tested the lunar surface and sent back evidence that helped show it could support the weight of an Apollo Lunar Module.",
+      "story_hook": "Two years after its landing, Apollo 12 astronauts visited Surveyor 3 and brought selected parts, including its television camera, back to Earth for examination.",
+      "educational_value": [
+        "Robotic lunar soft landing",
+        "Surface sampling before crewed landings",
+        "Apollo 12 site visit and returned hardware"
+      ],
+      "status_wording": "Inactive; remains on the lunar surface. Do not describe it as functioning.",
+      "image_source_page": "https://science.nasa.gov/mission/surveyor-3/",
+      "image_credit": "NASA",
+      "primary_sources": [
+        {
+          "title": "Surveyor 3 — NASA Science",
+          "url": "https://science.nasa.gov/mission/surveyor-3/"
+        },
+        {
+          "title": "Apollo 12 and Surveyor 3 — NASA Science",
+          "url": "https://science.nasa.gov/resource/apollo-12-and-surveyor-3/"
+        }
+      ],
+      "source_verified_claims": [
+        "Surveyor 3 soft-landed on the Moon on 20 April 1967.",
+        "Its surface-sampling tests helped scientists conclude that the lunar surface could support an Apollo Lunar Module.",
+        "Apollo 12 landed about 600 feet from Surveyor 3; selected parts were returned to Earth for scientific examination."
+      ],
+      "cautions": [
+        "Do not say all of Surveyor 3 was returned to Earth; only selected components were removed and returned.",
+        "Do not imply the Apollo 12 visit repaired or restarted Surveyor 3."
+      ],
+      "carousel_image": {
+        "url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/a/as12-48-7134.jpg",
+        "source_page": "https://science.nasa.gov/resource/apollo-12-and-surveyor-3/",
+        "credit": "NASA",
+        "alt": "Surveyor 3 — NASA mission photograph",
+        "image_note": "Apollo 12 lunar-surface photograph showing the Surveyor 3 spacecraft in the foreground and the Apollo 12 Lunar Module in the background.",
+        "type": "NASA/JPL photograph",
+        "downloaded_locally": false
+      }
+    },
+    {
+      "id": "moon_apollo_lm_descent_stage",
+      "name": "Apollo Lunar Module Descent Stage",
+      "destination": "Moon",
+      "mission": "Apollo lunar landing missions",
+      "category": "Descent Stages",
+      "launch_or_deployment": "Left at each of the six Apollo lunar landing sites",
+      "short_description": "The Lunar Module's lower stage carried much of the equipment and supplies for landing, then remained on the Moon as the launch platform for the astronauts' return stage.",
+      "story_hook": "The descent stage became a permanent surface artifact after the ascent stage lifted the astronauts back toward lunar orbit.",
+      "educational_value": [
+        "Two-stage Lunar Module design",
+        "How lunar landing and ascent were separated",
+        "Human-made artifacts and heritage on the Moon"
+      ],
+      "status_wording": "Left at the six Apollo lunar landing sites; a historical surface artifact.",
+      "image_source_page": "https://science.nasa.gov/resource/apollo-landing-sites/",
+      "image_credit": "NASA / NASA Goddard Space Flight Center Scientific Visualization Studio",
+      "primary_sources": [
+        {
+          "title": "Apollo Landing Sites — NASA Science",
+          "url": "https://science.nasa.gov/resource/apollo-landing-sites/"
+        },
+        {
+          "title": "Lunar Module — NASA historical technical overview",
+          "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/08_LM_%26_SLA_Overview_pp61-68.pdf"
+        }
+      ],
+      "source_verified_claims": [
+        "NASA states that the lower half of the Lunar Module, called the descent stage, was left at each of the six Apollo lunar landing sites.",
+        "The descent stage carried most astronaut supplies and served as the launch platform for the return trip to the Command and Service Module in lunar orbit."
+      ],
+      "cautions": [
+        "This is a class of artifact across six sites, not one uniquely identified vehicle. If the card is later tied to a specific Apollo mission, update the title and record accordingly.",
+        "Do not confuse the descent stage left on the surface with ascent stages, some of which were left in lunar orbit or later impacted the Moon."
+      ],
+      "carousel_image": {
+        "url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/lunar-science/2023/09/as11-40-5927_orig.jpg",
+        "source_page": "https://science.nasa.gov/resource/view-apollo-11-lunar-module-as-it-rested-on-lunar-surface/",
+        "credit": "NASA/JSC",
+        "alt": "Apollo Lunar Module Descent Stage — NASA mission photograph",
+        "image_note": "Apollo 11 lunar-surface photograph showing the Lunar Module; the image includes the descent-stage structure.",
+        "type": "NASA/JPL photograph",
+        "downloaded_locally": false
+      }
+    },
+    {
+      "id": "mars_spirit",
+      "name": "Spirit",
+      "destination": "Mars",
+      "mission": "Mars Exploration Rover",
+      "category": "Rovers",
+      "launch_or_deployment": "Launched 10 June 2003; landed 3 January 2004",
+      "short_description": "NASA's Spirit rover explored Mars for evidence of past water and found strong clues that the planet was once much wetter than it is today.",
+      "story_hook": "Designed for a short prime mission, Spirit operated for more than six years before NASA ended attempts to contact it.",
+      "educational_value": [
+        "Robotic geology and rock analysis",
+        "Evidence of ancient water",
+        "Mission lifetime versus planned lifetime"
+      ],
+      "status_wording": "Mission ended; NASA ended contact attempts on 25 May 2011.",
+      "image_source_page": "https://science.nasa.gov/mission/mer-spirit/",
+      "image_credit": "NASA/JPL-Caltech",
+      "primary_sources": [
+        {
+          "title": "Spirit — NASA Science",
+          "url": "https://science.nasa.gov/mission/mer-spirit/"
+        },
+        {
+          "title": "Mars Exploration Rovers: Spirit and Opportunity",
+          "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+        }
+      ],
+      "source_verified_claims": [
+        "Spirit landed on Mars on 3 January 2004.",
+        "Spirit uncovered strong evidence that Mars was once much wetter.",
+        "NASA ended efforts to contact Spirit on 25 May 2011; the rover had been silent since March 2010."
+      ],
+      "cautions": [
+        "Use the current NASA mission page for final duration and distance figures; do not mix rounded and precise values without units.",
+        "Do not imply Spirit is still communicating."
+      ],
+      "carousel_image": {
+        "url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia05/pia05066/PIA05066.jpg?crop=faces%2Cfocalpoint&fit=clip&h=1024&w=1024",
+        "source_page": "https://science.nasa.gov/photojournal/95-degree-position-at-jpl-testbed/",
+        "credit": "NASA/JPL",
+        "alt": "Spirit — NASA mission photograph",
+        "image_note": "NASA/JPL engineering-testbed photograph of a Spirit test rover on its lander in the JPL In-Situ Instruments Laboratory; this is a testbed image, not a photograph taken on Mars.",
+        "type": "NASA/JPL photograph",
+        "downloaded_locally": false
+      }
+    },
+    {
+      "id": "mars_opportunity",
+      "name": "Opportunity",
+      "destination": "Mars",
+      "mission": "Mars Exploration Rover",
+      "category": "Rovers",
+      "launch_or_deployment": "Launched 7 July 2003; landed 24 January 2004",
+      "short_description": "Opportunity explored Mars for nearly 15 years, finding geological evidence that ancient environments may once have been able to support microbial life.",
+      "story_hook": "A rover designed for a short mission far exceeded its planned lifetime and travelled more than 28 miles before communication ended during a planet-wide dust storm.",
+      "educational_value": [
+        "Evidence for ancient water and habitable environments",
+        "Solar-powered rover operations and dust storms",
+        "Long-duration robotic exploration"
+      ],
+      "status_wording": "Mission ended; NASA declared end of mission on 13 February 2019 after last communication on 10 June 2018.",
+      "image_source_page": "https://science.nasa.gov/mission/mer-opportunity/",
+      "image_credit": "NASA/JPL-Caltech",
+      "primary_sources": [
+        {
+          "title": "Opportunity — NASA Science",
+          "url": "https://science.nasa.gov/mission/mer-opportunity/"
+        },
+        {
+          "title": "Mars Exploration Rovers: Spirit and Opportunity",
+          "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+        }
+      ],
+      "source_verified_claims": [
+        "Opportunity landed on Mars on 24 January 2004.",
+        "Opportunity found evidence that Mars may once have been able to sustain microbial life.",
+        "Its last communication was 10 June 2018; NASA declared end of mission on 13 February 2019.",
+        "NASA's current mission page reports 28.06 miles (45.16 km) travelled."
+      ],
+      "cautions": [
+        "NASA's 2026 page notes Perseverance surpassed Opportunity's off-Earth distance record in October 2026; do not call Opportunity the current record holder.",
+        "Keep the distinction between last communication and formal end-of-mission date."
+      ],
+      "carousel_image": {
+        "url": "https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA06047.jpg",
+        "source_page": "https://www.jpl.nasa.gov/images/pia06047-the-test-drive/",
+        "credit": "NASA/JPL",
+        "alt": "Opportunity — NASA mission photograph",
+        "image_note": "NASA/JPL photograph of engineers rehearsing an Opportunity rover drive on a simulated Martian slope at JPL; this is an engineering test image, not a photograph taken on Mars.",
+        "type": "NASA/JPL photograph",
+        "downloaded_locally": false
+      }
+    },
+    {
+      "id": "mars_ingenuity",
+      "name": "Ingenuity Mars Helicopter",
+      "destination": "Mars",
+      "mission": "Mars 2020 / Perseverance",
+      "category": "Helicopters",
+      "launch_or_deployment": "Landed with Perseverance on 18 February 2021; first powered flight 19 April 2021; final flight 18 January 2024",
+      "short_description": "Ingenuity became the first aircraft to achieve powered, controlled flight on another planet, completing 72 flights during its Mars technology demonstration.",
+      "story_hook": "Designed for up to five test flights, Ingenuity flew 72 times and later served as an aerial scout before damage ended flight operations.",
+      "educational_value": [
+        "Powered flight in the thin Martian atmosphere",
+        "Autonomous flight and communications delay",
+        "Technology demonstration exceeding its original plan"
+      ],
+      "status_wording": "Flight mission ended on 25 January 2024; helicopter remains on Mars and is no longer capable of flight.",
+      "image_source_page": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+      "image_credit": "NASA/JPL-Caltech",
+      "primary_sources": [
+        {
+          "title": "Ingenuity Mars Helicopter — NASA Science",
+          "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/"
+        },
+        {
+          "title": "After Three Years on Mars, NASA’s Ingenuity Helicopter Mission Ends",
+          "url": "https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/"
+        }
+      ],
+      "source_verified_claims": [
+        "Ingenuity made its first powered, controlled flight on Mars on 19 April 2021.",
+        "It completed 72 flights; its final flight was 18 January 2024.",
+        "NASA announced the end of the mission on 25 January 2024 after rotor damage made it unable to fly."
+      ],
+      "cautions": [
+        "Do not describe Ingenuity as a science rover or imply it carried a science instrument suite; it was a technology demonstration.",
+        "Distinguish final flight date (18 January 2024) from mission end announcement (25 January 2024)."
+      ],
+      "carousel_image": {
+        "url": "https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA25881.jpg",
+        "source_page": "https://www.jpl.nasa.gov/images/pia25881-ingenuity-at-two-years-on-mars/",
+        "credit": "NASA/JPL-Caltech/ASU/MSSS",
+        "alt": "Ingenuity Mars Helicopter — NASA mission photograph",
+        "image_note": "Enhanced-color photograph of Ingenuity on Mars, taken by Perseverance's Mastcam-Z on April 16, 2023.",
+        "type": "NASA/JPL photograph",
+        "downloaded_locally": false
+      }
+    },
+    {
+      "id": "mars_curiosity",
+      "name": "Curiosity",
+      "destination": "Mars",
+      "mission": "Mars Science Laboratory",
+      "category": "Rovers",
+      "launch_or_deployment": "Launched 26 November 2011; landed 6 August 2012",
+      "short_description": "Curiosity studies Mount Sharp and the geology and climate history of Gale Crater to assess whether ancient Mars had environments suitable for microbial life.",
+      "story_hook": "A mobile laboratory designed to investigate whether Mars ever had conditions that could support microbial life.",
+      "educational_value": [
+        "Mars geology",
+        "Sample analysis",
+        "Habitability science"
+      ],
+      "status_wording": "Active NASA mission; status should be refreshed against the current NASA mission page.",
+      "primary_sources": [
+        {
+          "title": "Curiosity Rover — NASA Science",
+          "url": "https://science.nasa.gov/mission/msl-curiosity/"
+        }
+      ],
+      "source_verified_claims": [
+        "Curiosity is part of NASA's Mars Science Laboratory mission.",
+        "It landed in Gale Crater in August 2012.",
+        "Its science goal includes assessing whether Mars ever had environments suitable for microbial life."
+      ],
+      "cautions": [
+        "Check current mission status and latest operational updates before publication."
+      ]
+    },
+    {
+      "id": "mars_viking1_lander",
+      "name": "Viking 1 Lander",
+      "destination": "Mars",
+      "mission": "Viking 1",
+      "category": "Landers",
+      "launch_or_deployment": "Launched 20 August 1975; landed 20 July 1976",
+      "short_description": "Viking 1 was NASA's first successful Mars lander and returned surface images and scientific measurements from Chryse Planitia.",
+      "story_hook": "It helped establish the first long-lived surface science station on Mars.",
+      "educational_value": [
+        "Planetary landing systems",
+        "Mars surface imaging",
+        "Early life-detection experiments"
+      ],
+      "status_wording": "Mission ended; the lander remains at its historical Mars landing site.",
+      "primary_sources": [
+        {
+          "title": "Viking 1 — NASA Science",
+          "url": "https://science.nasa.gov/mission/viking-1/"
+        }
+      ],
+      "source_verified_claims": [
+        "Viking 1 landed on Mars on 20 July 1976.",
+        "It was the first of the two Viking landers to reach Mars.",
+        "It conducted surface science and imaging."
+      ],
+      "cautions": [
+        "Do not present the results of Viking biology experiments as proof of life."
+      ]
+    },
+    {
+      "id": "mars_phoenix_lander",
+      "name": "Phoenix Mars Lander",
+      "destination": "Mars",
+      "mission": "Phoenix",
+      "category": "Landers",
+      "launch_or_deployment": "Launched 4 August 2007; landed 25 May 2008",
+      "short_description": "Phoenix investigated the Martian arctic plains and confirmed water ice beneath the surface near its landing site.",
+      "story_hook": "A stationary lander that used a robotic arm to reach and sample icy soil.",
+      "educational_value": [
+        "Water ice on Mars",
+        "Robotic arm sampling",
+        "Polar environments"
+      ],
+      "status_wording": "Mission ended after the Martian arctic winter; hardware remains at the landing site.",
+      "primary_sources": [
+        {
+          "title": "Phoenix Mars Mission — NASA",
+          "url": "https://science.nasa.gov/mission/phoenix/"
+        }
+      ],
+      "source_verified_claims": [
+        "Phoenix landed in the Martian arctic on 25 May 2008.",
+        "The mission confirmed water ice beneath the surface.",
+        "Phoenix used a robotic arm to collect and deliver soil samples."
+      ],
+      "cautions": [
+        "Distinguish water ice from liquid water."
+      ]
+    },
+    {
+      "id": "mars_insight_lander",
+      "name": "InSight Lander",
+      "destination": "Mars",
+      "mission": "Interior Exploration using Seismic Investigations, Geodesy and Heat Transport",
+      "category": "Landers",
+      "launch_or_deployment": "Launched 5 May 2018; landed 26 November 2018",
+      "short_description": "InSight studied Mars's interior using seismic measurements and heat-flow investigations, helping scientists understand the planet's internal structure.",
+      "story_hook": "A stationary geophysical observatory that listened for marsquakes.",
+      "educational_value": [
+        "Seismology",
+        "Planetary interiors",
+        "Heat flow"
+      ],
+      "status_wording": "Mission ended in December 2022 after power declined as dust accumulated on its solar panels.",
+      "primary_sources": [
+        {
+          "title": "InSight Mission — NASA Science",
+          "url": "https://science.nasa.gov/mission/insight/"
+        }
+      ],
+      "source_verified_claims": [
+        "InSight landed on Mars on 26 November 2018.",
+        "The mission studied the planet's deep interior.",
+        "NASA ended the mission in December 2022."
+      ],
+      "cautions": [
+        "Do not confuse the lander with the separate HP3 instrument or SEIS seismometer."
+      ]
+    }
+  ]
+}

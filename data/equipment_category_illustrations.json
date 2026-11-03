@@ -1,0 +1,42 @@
+{
+  "asset_type": "AI-generated conceptual illustrations",
+  "note": "These are category illustrations, not photographs or exact replicas of named NASA mission hardware. Use only as category-card artwork; do not present them as evidence or specific NASA equipment.",
+  "categories": [
+    {
+      "id": "rovers",
+      "name": "Rovers",
+      "image": "category-illustrations/rovers.png",
+      "alt": "Realistic three-dimensional robotic rover category illustration"
+    },
+    {
+      "id": "landers",
+      "name": "Landers",
+      "image": "category-illustrations/landers.png",
+      "alt": "Realistic three-dimensional planetary lander category illustration"
+    },
+    {
+      "id": "spacecraft",
+      "name": "Spacecraft",
+      "image": "category-illustrations/spacecraft.png",
+      "alt": "Realistic three-dimensional deep-space spacecraft category illustration"
+    },
+    {
+      "id": "orbiters",
+      "name": "Orbiters",
+      "image": "category-illustrations/orbiters.png",
+      "alt": "Realistic three-dimensional planetary orbiter category illustration"
+    },
+    {
+      "id": "helicopters",
+      "name": "Helicopters",
+      "image": "category-illustrations/helicopters.png",
+      "alt": "Realistic three-dimensional Mars helicopter category illustration"
+    },
+    {
+      "id": "descent-stages",
+      "name": "Descent Stages",
+      "image": "category-illustrations/descent-stages.png",
+      "alt": "Realistic three-dimensional lunar descent-stage category illustration"
+    }
+  ]
+}

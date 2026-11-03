@@ -1,0 +1,12 @@
+{
+  "note": "Curated featured selection. Add, remove or reorder IDs here; each ID must exist in featured_equipment.json. The Home Screen expects exactly 6 in this initial selection.",
+  "expected_count": 6,
+  "featured_ids": [
+    "moon_apollo_lrv",
+    "moon_surveyor_3",
+    "moon_apollo_lm_descent_stage",
+    "mars_spirit",
+    "mars_opportunity",
+    "mars_ingenuity"
+  ]
+}

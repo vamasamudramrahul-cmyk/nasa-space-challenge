@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "note": "Five sample questions only, for interface demonstration. The approved production requirement is 15 defensible questions per equipment, derived solely from that equipment Full Details screen; this is not yet met.",
+  "questions": [
+    {
+      "id": "q_lrv_1",
+      "equipmentId": "moon_apollo_lrv",
+      "question": "Which Apollo missions used the Lunar Roving Vehicle on the Moon?",
+      "options": [
+        "Apollo 11, 12 and 13",
+        "Apollo 15, 16 and 17",
+        "Apollo 14, 15 and 16",
+        "Apollo 16, 17 and 18"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Lunar Roving Vehicle was used on Apollo 15, Apollo 16 and Apollo 17."
+    },
+    {
+      "id": "q_surveyor_1",
+      "equipmentId": "moon_surveyor_3",
+      "question": "Which crewed mission visited Surveyor 3 and returned selected components to Earth?",
+      "options": [
+        "Apollo 11",
+        "Apollo 12",
+        "Apollo 14",
+        "Apollo 15"
+      ],
+      "correctIndex": 1,
+      "explanation": "Apollo 12 astronauts visited Surveyor 3 and returned selected parts for examination."
+    },
+    {
+      "id": "q_spirit_1",
+      "equipmentId": "mars_spirit",
+      "question": "What kind of evidence did Spirit help reveal about ancient Mars?",
+      "options": [
+        "Evidence that Mars was once much wetter",
+        "Evidence of active forests",
+        "Evidence of modern oceans",
+        "Evidence of current volcanic eruptions"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spirit found strong clues that Mars was once much wetter than it is today."
+    },
+    {
+      "id": "q_phoenix_1",
+      "equipmentId": "mars_phoenix_lander",
+      "question": "What did the Phoenix lander confirm beneath the Martian surface near its landing site?",
+      "options": [
+        "Liquid methane lakes",
+        "Water ice",
+        "Large underground forests",
+        "A global magma ocean"
+      ],
+      "correctIndex": 1,
+      "explanation": "Phoenix confirmed water ice beneath the surface in the Martian arctic."
+    },
+    {
+      "id": "q_insight_1",
+      "equipmentId": "mars_insight_lander",
+      "question": "What was InSight primarily designed to investigate?",
+      "options": [
+        "The rings of Mars",
+        "The interior structure of Mars",
+        "The atmosphere of Venus",
+        "The oceans of Europa"
+      ],
+      "correctIndex": 1,
+      "explanation": "InSight studied Mars\u2019s interior using seismic and heat-flow investigations."
+    }
+  ]
+}
